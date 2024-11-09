@@ -1,17 +1,11 @@
-# Welcome to MkDocs
+# Dida's Bistro
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## Equipe
 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+| Foto | Nome | Github  | Matrícula |
+|:----:|:----:|:------:|:---------:|
+| <img width="100px" style="border-radius:10%" src="https://github.com/benlacerda.png" alt="Benjamim Lacerda Santos"> | Benjamim Lacerda Santos | @benlacerda | 200062123 |
+| <img width="100px" style="border-radius:10%" src="https://github.com/IderlanJ.png" alt="Iderlan Junio Cardoso da Silva"> | Iderlan Júnio Cardoso da Silva | @IderlanJ | 211062947 |
+| <img width="100px" style="border-radius:10%" src="https://github.com/Mateushqms.png" alt="MATEUS HENRIQUE QUEIROZ MAGALHAES SOUSA"> | MATEUS HENRIQUE QUEIROZ MAGALHAES SOUSA | @Mateushqms | 222025950 |
+| <img width="100px" style="border-radius:10%" src="https://github.com/Goizzz.png" alt="PEDRO GOIS MARQUES MONTEIRO"> | PEDRO GOIS MARQUES MONTEIRO | @Goizzz | 222026386 |
+| <img width="100px" style="border-radius:10%" src="https://github.com/Pedro-hsf.png" alt="PEDRO HENRIQUE DOS SANTOS FERREIRA"> | PEDRO HENRIQUE DOS SANTOS FERREIRA | @Pedro-hsf | 211063229 |
