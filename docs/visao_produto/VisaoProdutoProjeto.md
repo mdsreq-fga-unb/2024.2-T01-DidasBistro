@@ -26,6 +26,12 @@ A partir de 2016, o Dida's Bistrô passou a organizar eventos privados, focando 
 
 ### 1.4 **Segmentação de Clientes**
 
+O produto será destinado a dona e aos funcionários da empresa, na qual podemos dividir em dois segmentos: 
+ 
+Idosos com mais de 60 anos:  Usuários com poucas experiências tecnológicas e que utilizam celular. Possuem a necessidade de um software com poucas interações para realizar o seu objetivo.  
+
+Jovens adultos entre 20 e 30 anos: Usuários com experiências tecnológicas em computadores e celulares. Capazes de utilizar o software sem dificuldades. 
+
 ## 2 **Solução Proposta**
 
 ### 2.1 **Objetivos do Produto**
