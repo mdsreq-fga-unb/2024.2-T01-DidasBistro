@@ -87,7 +87,23 @@ Diferenciando das soluções apresentadas que por mais que estão consolidadas n
 
 ### 2.5 **Análise de Viabilidade**
 
+A viabilidade técnica do projeto é alta, uma vez que boa parte da equipe de desenvolvimento possui experiência nas tecnologias que serão utilizadas, como Python para o backend e Node.js e React.js para o frontend. Será utilizado um sistema de gerenciamento de banco de dados relacional, o MySQL, que permitirá armazenar, organizar e consultar grandes volumes de dados. 
+
+  
+
+O projeto será conduzido por meio de sprints divididas em ciclos quinzenais. Cada sprint terá entregas incrementais de funcionalidades, o que permitirá validações constantes por parte do cliente e ajustes rápidos baseados no feedback do mesmo. O cronograma é considerado viável, dado que a equipe já teve contato com projetos semelhantes anteriormente e conta com os recursos tecnológicos necessários para realizar a integração e implementação das funcionalidades dentro do prazo estipulado. 
+
+  
+
+Em termos de viabilidade financeira, o desenvolvimento do sistema é totalmente sustentável, com custos alinhados aos recursos disponíveis para a equipe. Dessa forma, o cliente não enfrentará problemas futuros relacionados a custos extras, pois não dependerá de soluções externas. O Dida’s Bistrô contará com um sistema personalizado, garantindo maior controle e eficiência em todos os processos. 
+
+  
+
+Do ponto de vista de mercado, a viabilidade é favorável, pois há uma certa demanda por soluções de gestão em pequenos estabelecimentos como o Dida's Bistrô. Com isso, será possível atender ao cliente de forma eficaz, atendendo diretamente às suas necessidades para gerir seu negócio.
+
 ### 2.6 **Impacto da Solução**
+
+A solução trará ao Dida’s Bistrô uma operação mais eficiente e transparente. Ao otimizar o controle de estoque, o fluxo de caixa e o pagamento de funcionários, o sistema fortalecerá a capacidade de o restaurante operar de forma rentável e bem-organizada. Esses benefícios permitirão que o Dida’s Bistrô melhore sua eficiência operacional, reduza custos e adapte-se de maneira ágil aos diversos tipos de eventos que realiza, aumentando a lucratividade e assegurando uma gestão mais tranquila e profissional. 
 
 ## 3 **Estrátegias de Engenharia de Software**
 
@@ -150,5 +166,11 @@ Diferenciando das soluções apresentadas que por mais que estão consolidadas n
 ## 6 **Lições Aprendidas**
 
 ### 6.1 **Unidade 1**
+
+As lições aprendidas incluíram uma compreensão mais profunda dos processos e ciclos de vida da Engenharia de Requisitos, o que trouxe uma visão clara sobre as etapas necessárias para alcançar o objetivo final proposto ao projeto. A equipe também aprimorou o entendimento sobre os diferentes tipos de requisitos e a entender melhor as expectativas e necessidades do cliente garantindo que suas demandas fossem compreendidas e incorporadas no projeto. 
+
+A equipe do projeto demonstrou uma boa sinergia desde o início, com a definição de reuniões semanais para garantir o alinhamento e a evolução do trabalho. No entanto a falta de clareza em relação às tarefas e próximos passos resultou em reuniões que, embora focadas, não levavam à execução completa das atividades planejadas. Isso gerou um ciclo de discussões produtivas, mas com uma baixa efetividade na implementação, impactando o progresso do projeto. 
+
+Para melhorar isso, a equipe pode começar a registrar atas das reuniões, com as decisões e ações a serem tomadas. Ter esses registros facilitam lembrar o que deve ser feito e quem é responsável por cada tarefa. Além disso, a definição do backlog do produto e a utilização de um quadro KanBan para acompanhar o progresso, ajuda a transformar as conversas em resultados concretos. 
 
 ## 7 **referências Bibliográficas**
