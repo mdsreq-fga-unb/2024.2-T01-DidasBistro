@@ -6,8 +6,13 @@ repo_url: 'https://github.com/mdsreq-fga-unb/2024.2-T01-DidasBistro'
 nav:
   - Home: index.md
   - Visão do Produto e Projeto:
-    - Visão do Produto e Projeto: visao_produto/VisaoProdutoProjeto.md
-
+    - Cenário Atual do Cliente e do Negócio: visao_produto/VisaoProdutoProjeto.md
+    - Solução Proposta: visao_produto/SolucaoProposta.md
+    - Estratégias de Engenharia de Software: visao_produto/EstrategiasEngSoftware.md
+    - Cronograma e Entregas: visao_produto/CronogramaEntregas.md
+    - Interação Entre Equipe e Cliente: visao_produto/InteracaoEquipeCliente.md
+    - Lições Aprendidas: visao_produto/LicoesAprendidas.md
+    - Referências Bibliográficas: visao_produto/ReferenciaBibliografica.md
 
 theme:
   name: material
