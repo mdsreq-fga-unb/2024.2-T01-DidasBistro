@@ -29,7 +29,7 @@ O quadro a seguir apresenta características dos processos RAD e SCRUM que serã
 
 ### 3.3 **Justificativa**
 
-Baseado no Framework proposto por Gupta para a escolha dos processos, respondemos uma série de questões sobre os tópicos abordados pelo Framework para definir o modelo de desenvolvimento que será utilizado ao longo do projeto. Optamos pelo RAD como framework mostrou e adaptamos algumas características do SCRUM para melhor adequação ao Dida’s Bistrô.
+Baseado nos critérios proposto por Gupta para a escolha de processos, respondemos uma série de questões sobre os tópicos abordados pelos critérios para definir o modelo de desenvolvimento que será utilizado ao longo do projeto. Optamos pelo RAD como framework mostrou e adaptamos algumas características do SCRUM para melhor adequação ao Dida’s Bistrô.
 
 ![gupta1](../imagens/gupta1.jpeg)
 
