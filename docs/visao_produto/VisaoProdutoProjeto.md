@@ -15,7 +15,7 @@ A falta de um sistema de gerenciamento de estoque também é um problema signifi
 
 Segue abaixo um diagrama de Ishikawa sobre os problemas do cliente.
 
-![Ishikawa](./imagens/FishboneDiagram.jpg)
+![Ishikawa](../imagens/FishboneDiagram.jpg)
 
 
 
