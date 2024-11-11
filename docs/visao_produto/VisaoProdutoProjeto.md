@@ -7,18 +7,14 @@
 # **Visão do Produto e Projeto**
 
 ## 1 **Cenário atual do cliente e do negócio**
+ 
+### 1.1 **Introdução ao Negócio e Contexto**
 
 O Dida's Bistrô é um restaurante que realiza eventos privados, como festas e shows, com o objetivo de proporcionar experiências gastronômicas para seus clientes. Com um cardápio variado, adapta suas opções conforme a ocasião. Além disso, o Dida's Bistrô também atua como vendedor ambulante em shows e eventos em Brasília. 
-
  
-
 Fundado em 2012, o negócio teve início com a venda de churros ambulante. Com o tempo, expandiu seu cardápio para incluir opções como hambúrguer, cachorro-quente, churrasquinho e macarrão. Hoje, o cardápio é flexível, permitindo que os pratos sejam ajustados conforme a demanda do evento. 
 
- 
-
-A partir de 2016, o Dida's Bistrô passou a organizar eventos privados, focando em festas juninas. Em 2022, recebeu o prêmio Sesc Comerciário Destaque, em reconhecimento pelas festas juninas realizadas nos Sesc de Brasília. 
-
-### 1.1 **Introdução ao Negócio e Contexto**
+A partir de 2016, o Dida's Bistrô passou a organizar eventos privados, focando em festas juninas. Em 2022, recebeu o prêmio Sesc Comerciário Destaque, em reconhecimento pelas festas juninas realizadas nos Sesc de Brasília.
 
 ### 1.2 **Identificação da Oportunidade ou Problema**
 O principal problema do Didas Bistrô é a perda ou má interpretação dos dados, o que é causado pelo uso exclusivo de papel para registro e controle. Isso dificulta o planejamento do negócio, já que, muitas vezes, a equipe não tem acesso a informações cruciais sobre eventos passados, como lucro, número de funcionários necessários e quantidade de ingredientes utilizados. Como resultado, a contabilidade fica comprometida, dificultando a análise de gastos, faturamento e lucro de cada evento. Além disso, a falta de registros adequados prejudica o planejamento futuro, pois não é possível avaliar se vale a pena repetir determinados eventos, já que os dados históricos estão frequentemente perdidos ou inacessíveis.
