@@ -27,7 +27,7 @@ A falta de um sistema de gerenciamento de estoque também é um problema signifi
 
 Segue abaixo um diagrama de Ishikawa sobre os problemas do cliente.
 
-<img src="/imagens/Fishbone%20Diagram.jpg">
+![Ishikawa](/imagens/FishboneDiagram.jpg)
 
 
 
@@ -151,12 +151,13 @@ O quadro a seguir apresenta características dos processos RAD e SCRUM que serã
 
 Baseado no Framework proposto por Gupta para a escolha dos processos, respondemos uma série de questões sobre os tópicos abordados pelo Framework para definir o modelo de desenvolvimento que será utilizado ao longo do projeto. Optamos pelo RAD como framework mostrou e adaptamos algumas características do SCRUM para melhor adequação ao Dida’s Bistrô.
 
-<div style="text-align: center;">
-    <img src="/imagens/gupta1.jpeg" alt="Imagem 1" width="600" height="400"><br>
-    <img src="/imagens/gupta2.jpeg" alt="Imagem 2" width="600" height="400">
-    <img src="/imagens/gupta3.jpeg" alt="Imagem 3" width="600" height="400">
-    <img src="/imagens/gupta4.jpeg" alt="Imagem 4" width="600" height="400">
-</div>
+![gupta1](/imagens/gupta1.jpeg)
+
+![gupta2](/imagens/gupta2.jpeg)
+
+![gupta3](/imagens/gupta3.jpeg)
+
+![gupta4](/imagens/gupta4.jpeg)
 
 
 Watterfall: 10<Br>
