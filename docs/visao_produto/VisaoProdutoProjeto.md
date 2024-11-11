@@ -29,6 +29,7 @@ Segue abaixo um diagrama de Ishikawa sobre os problemas do cliente.
 
 
 ### 1.3 **Desafios do Projeto**
+
 O principal desafio técnico é que o Didas Bistrô atualmente não utiliza nenhum software para gerenciar seus processos. Não há nenhum sistema existente que atenda aos requisitos específicos do negócio. Por isso, será necessário desenvolver uma solução do zero, capaz de atender a todas as necessidades operacionais. Além disso, é essencial que o software tenha uma interface intuitiva e de fácil usabilidade, para que qualquer pessoa, independentemente de sua experiência, consiga utilizá-lo, já que, para cada evento, são contratados profissionais diferentes.
 
 ### 1.4 **Segmentação de Clientes**
@@ -96,15 +97,9 @@ Diferenciando das soluções apresentadas que por mais que estão consolidadas n
 
 A viabilidade técnica do projeto é alta, uma vez que boa parte da equipe de desenvolvimento possui experiência nas tecnologias que serão utilizadas, como Python para o backend e Node.js e React.js para o frontend. Será utilizado um sistema de gerenciamento de banco de dados relacional, o MySQL, que permitirá armazenar, organizar e consultar grandes volumes de dados. 
 
-  
-
 O projeto será conduzido por meio de sprints divididas em ciclos quinzenais. Cada sprint terá entregas incrementais de funcionalidades, o que permitirá validações constantes por parte do cliente e ajustes rápidos baseados no feedback do mesmo. O cronograma é considerado viável, dado que a equipe já teve contato com projetos semelhantes anteriormente e conta com os recursos tecnológicos necessários para realizar a integração e implementação das funcionalidades dentro do prazo estipulado. 
 
-  
-
 Em termos de viabilidade financeira, o desenvolvimento do sistema é totalmente sustentável, com custos alinhados aos recursos disponíveis para a equipe. Dessa forma, o cliente não enfrentará problemas futuros relacionados a custos extras, pois não dependerá de soluções externas. O Dida’s Bistrô contará com um sistema personalizado, garantindo maior controle e eficiência em todos os processos. 
-
-  
 
 Do ponto de vista de mercado, a viabilidade é favorável, pois há uma certa demanda por soluções de gestão em pequenos estabelecimentos como o Dida's Bistrô. Com isso, será possível atender ao cliente de forma eficaz, atendendo diretamente às suas necessidades para gerir seu negócio.
 
