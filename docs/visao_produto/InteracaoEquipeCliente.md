@@ -17,7 +17,7 @@
 
  
 
-**WhatsApp:** Será utilizado para a comunicação dos membros da equipe diariamente. Está ferramenta é necessária por conta da facilidade ao envio rápido de mensagens, enquetes, arquivos e canais de comunicação específicos.  
+**Aplicativo de mensagem instantânea:** Será utilizado para a comunicação dos membros da equipe diariamente. Está ferramenta é necessária por conta da facilidade ao envio rápido de mensagens, enquetes, arquivos e canais de comunicação específicos.  
 
  
 
@@ -33,11 +33,11 @@
 
   
 
-**Reunião de Revisão de Sprint (a cada 2 semanas):**  As reuniões de conclusão de sprint (a cada 2 semanas), será revisado com o cliente, nessas reuniões, todas as funcionalidades desenvolvidas durante a sprint serão apresentadas. Com isso, garantindo que o cliente teste e passe o seu feedback.   
+**Reunião de Revisão e Retrospectiva:**  As reuniões de conclusão da fase, será revisado com o cliente, nessas reuniões, todas as funcionalidades desenvolvidas durante a fase serão apresentadas. Com isso, garantindo que o cliente teste e realize a validação. Também será realizada uma retrospectiva entre a equipe para entender quais foram as dificuldades, desafios e lições aprendidas durante o processo.   
 
   
 
-**Reunião de Planejamento de Sprint e Retrospectiva:** Ao final de cada sprint após a revisão será decidido junto ao cliente quais serão os próximos passos, criando um planejamento para a posterior sprint. Também será realizada uma retrospectiva entre a equipe para entender quais foram as dificuldades, desafios e lições aprendidas durante o processo.  
+**Reunião de Planejamento:** Ao ínicio de cada fase será decidido junto ao cliente quais serão os próximos passos, criando um planejamento para a fase que se inicia.  
 
   
 

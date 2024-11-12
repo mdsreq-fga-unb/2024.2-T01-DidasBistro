@@ -48,7 +48,7 @@ Spiral: 9<br>
 **RAD: 11** 
 
 **Rapidez:**
-O RAD visa acelerar o processo de desenvolvimento. Isso é conseguido através de ciclos de desenvolvimento curtos, permitindo que os produtos sejam entregues mais rapidamente, usaremos o sistema de Sprints do SCRUM.
+O RAD visa acelerar o processo de desenvolvimento. Isso é alcançado através de ciclos de desenvolvimento curtos, permitindo que os produtos sejam entregues mais rapidamente.
 
 **Flexibilidade:**
 Incentiva a adaptação rápida às mudanças. O RAD permite ajustes no decorrer do projeto sem grandes impactos nos prazos graças à constante prototipagem e os feedbacks.
@@ -57,7 +57,7 @@ Incentiva a adaptação rápida às mudanças. O RAD permite ajustes no decorrer
 O uso de protótipos é central no RAD, permitindo que desenvolvedores testem e ajustem funcionalidades, de acordo com os requisitos do cliente, o que será de extrema importância para o Dida’s Bistrô.
 
 **Organização:**
-Aqui usamos o SCRUM para nos organizarmos em Sprints, porém não utilizamos todos os rituais existentes como as dailys por exemplo.
+A organização é baseada na realização de fases com timebox de 15 dias, as reuniçoes são as de planejamento e retrospectiva e revisão. A gestão das histórias de usuários é realizada através do ZenHub, a comunicação interna é com a utilização de aplicativo de mensagem instantânea e a comunicação com o cliente é utilizando o Microsoft Teams como reuniões gravadas.
 
 **Cliente Ativo:**
 Nosso cliente tem disponibilidade para estar presente em quase todas as nossas reuniões, por isso escolhemos a metodologia RAD, permitindo constantes feedbacks durante o processo de prototipação.

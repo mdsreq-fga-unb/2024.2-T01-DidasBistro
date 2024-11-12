@@ -1,7 +1,7 @@
 
 # Calendário de Sprints
 
-| Sprint | Início  | Fim     | Objetivo Principal | Entregas Esperadas | Validação do Cliente |
+| Fases | Início  | Fim     | Objetivo Principal | Entregas Esperadas | Validação do Cliente |
 |--------|---------|---------|--------------------|--------------------|----------------------|
 | **Fase 1** | 28/10/23 | 11/11/23 | - Planejamento do projeto | - Entrega da Unidade 1 <br> - Definição inicial do Backlog <br> - GitPages do projeto <br> - Vídeo de apresentação da entrega | Reunião para validação do planejamento |
 | **Fase 2** | 12/11/23 | 25/11/23 | - Criação do protótipo da interface do sistema | - Criação da tela inicial do sistema com navegação entre as diferentes telas | Revisão da prototipação do Figma |
