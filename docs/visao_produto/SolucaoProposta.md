@@ -69,6 +69,6 @@ A solução trará ao Dida’s Bistrô uma operação mais eficiente e transpare
 
 | **Data**   | **Versão** | **Descrição**                                                                         | **Autor**                                                                 |
 | ---------- | ---------- | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
-| 08/11/2024 | 1\.0 | Criação do documento | Benjamim Lacerda |
-| 11/11/2024 | 1\.1 | Atualização do Documento | Pedro Henrique |
-
+| 08/11/2024 | 0\.0 | Criação do documento | Benjamim Lacerda |
+| 11/11/2024 | 0\.1 | Atualização do Documento | Pedro Henrique |
+| 11/11/2024 | 1\.0 | Primeira versão do documento | Benjamim Lacerda Santos, Iderlan Junio Cardoso da Silva, Mateus Henrique Queiroz Magalhães Sousa, Pedro Gois Marques Monteiro, Pedro Henrique |

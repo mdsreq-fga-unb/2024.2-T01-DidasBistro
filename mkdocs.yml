@@ -13,9 +13,16 @@ nav:
     - Interação Entre Equipe e Cliente: visao_produto/InteracaoEquipeCliente.md
     - Lições Aprendidas: visao_produto/LicoesAprendidas.md
     - Referências Bibliográficas: visao_produto/ReferenciaBibliografica.md
+  - Apresentações:
+    - Unidade 1: Apresentações/Unidade1/unidade1.md
+  - Reuniões:
+    - Reuniões Iniciais: reunioes/fase_inicial/fase_inicial.md
+
 
 theme:
   name: material
   language: 'pt'
+  logo: imagens/didas-icon.ico
+  favicon: assets/unbtv-icon.ico
   palette:
     primary: blue green
