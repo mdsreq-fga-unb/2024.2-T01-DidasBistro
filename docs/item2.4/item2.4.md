@@ -1,0 +1,19 @@
+### 2.4 **Engenharia de Requisitos e RAD SCRUM**
+
+**tabela:**
+
+| Fases do RAD SCRUM             | Atividades da Engenharia de Requisitos (ER) | Prática                          | Técnica                                              | Resultados Esperados                                                                 |
+|--------------------------------|---------------------------------------------|----------------------------------|-----------------------------------------------------|------------------------------------------------------------------------------------|
+| Planejamento da Release        | Elicitação e Descoberta                     | Levantamento de Requisitos      | Entrevista, Brainstorming, Lean Inception           | Descoberta dos requisitos e definição da Release                                  |
+|                                | Análise e Consenso                          | Priorização de Requisitos        | Product Backlog Building (PBB)                     | Definição das funcionalidades a serem implementadas                                |
+|                                | Declaração                                  | Registro dos Requisitos          | User Story Mapping, Snow Cards                     | Especificação das histórias de usuário                                             |
+| Planejamento da Sprint         | Elicitação e Descoberta                     | Alinhamento com os Stakeholders | Entrevista, Workshop de Requisitos                 | Identificação das necessidades do usuário para o desenvolvimento da sprint         |
+|                                | Análise e Consenso                          | Refinamento de Backlog           | Análise de Custo e Benefício, Análise de Tarefas    | Priorização do Backlog                                                             |
+| Execução da Sprint (RAD)       | Representação                               | Desenvolvimento das Interfaces   | Prototipagem                                        | Protótipos para Validação                                                          |
+|                                | Verificação e Validação                     | Revisão de Implementações        | DoD e DoR, Feedback, Checklist de Validação         | Requisitos validados e revisados de acordo com as tarefas designadas na etapa de planejamento |
+| Revisão da Sprint              | Verificação e Validação                     | Apresentação e Avaliação         | Coleta de Feedback, Inspeção, Backlog de Requisitos| Validação dos Resultados Entregues                                                |
+|                                | Organização e Atualização                   | Atualização de Documentação      | Registro de novos Requisitos e Ajustes             | Registro de novos Requisitos e Ajustes                                            |
+| Retrospectiva da Sprint        | Análise e Consenso                          | Identificação de Melhores Práticas| Brainstorming, Resolução de Conflitos              | Melhorias identificadas para o próximo ciclo                                      |
+|                                | Organização e Atualização                   | Registro de Lições Aprendidas    | Feedback, DoD                                       | Aprendizado contínuo documentado                                                  |
+| Planejamento da Próxima Release| Elicitação e Descoberta                     | Alinhamento de Novos Requisitos  | Entrevista, Workshop de Requisitos                 | Novos requisitos e ajustes a serem implementados                                   |
+|                                | Organização e Atualização                   | Atualização do Backlog           | Reavaliação de Requisitos                          | Priorização dos requisitos para a nova release                                     |

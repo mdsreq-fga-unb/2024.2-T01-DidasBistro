@@ -17,6 +17,9 @@ nav:
     - Unidade 1: Apresentações/Unidade1/unidade1.md
   - Reuniões:
     - Reuniões Iniciais: reunioes/fase_inicial/fase_inicial.md
+  - Item 2.4:
+    - Tabela: item2.4/item2.4.md
+
 
 
 theme:
