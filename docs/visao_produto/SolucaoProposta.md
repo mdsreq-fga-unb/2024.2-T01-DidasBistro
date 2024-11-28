@@ -1,24 +1,55 @@
 ### 2.1 **Objetivos do Produto**
 
-O principal objetivo do produto é garantir ao cliente, independentemente das suas preferências ou limitações, a possibilidade de acessar e utilizar uma plataforma que execute as tarefas com rapidez e precisão, sem processos desnecessários ou complexos. Isso significa otimizar a experiência do usuário para que ele consiga, por exemplo, realizar um inventário de produtos, acompanhar transações e romper barreiras, como no sentido de eliminar obstáculos que dificultem o uso do produto.  
+Nosso objetivo é resolver os problemas causados pela perda de dados, criando um
+meio de armazená-los e acessá-los. Isso vai auxiliar na tomada de decisões no
+Didas Bistrô, facilitando o acompanhamento de eventos anteriores, o controle de
+estoque e o planejamento para futuros eventos. Com o intuito de alcançar esse
+objetivo, a plataforma será desenvolvida para:
 
-Isso inclui a eliminação de limitações técnicas, como a necessidade de ter conhecimentos avançados em sistemas financeiros ou de gestão de estoque para o utilizar o software. Através disso certificar que essa ferramenta consiga oferecer ao cliente a oportunidade de administrar as saídas e entradas de sua empresa, visando a capacidade de registar as informações de determinado evento e estoque, garantindo a sua usabilidade. 
+**Centralizar o registro de dados em uma plataforma digital**, substituindo o
+uso exclusivo do papel. Permitindo acesso a informações cruciais sobre
+eventos passados, como lucro, número de funcionários necessários e
+quantidade de ingredientes utilizados.
+
+**Implementar um sistema de gestão financeira**, permitindo que os usuários
+possam analisar gastos, faturamento e lucros de cada evento.
+
+**Criar um sistema de gerenciamento de estoque**, para monitorar a
+quantidade de ingredientes disponíveis em tempo real.
+
+**Prover acesso a registro de eventos passados**, facilitando o planejamento
+futuro.
+
+**Objetivos secundários:**
+
+Criar uma interface voltada para usuários que não possuem experiência com
+tecnologias.
+
+Assegurar que a plataforma seja responsiva, adaptando para dispositivos
+móveis.
 
 ### 2.2 **Características da Solução**
 
-A plataforma vai possuir uma interface de fácil entendimento que busca apresentar ao usuário que a sua navegação será autoexplicativa, desde os botões e menus, o intuito é demonstrar a sua acessibilidade ao usuário.  
+**Interface intuitiva:** A plataforma vai possuir uma interface de fácil entendimento
+que busca apresentar ao usuário que a sua navegação será autoexplicativa, desde
+os botões e menus, o intuito é demonstrar a sua acessibilidade ao usuário.
 
- 
+**Sistema de Contabilidade Integrado:** Será possível registrar e categorizar todas
+as transações financeiras, como vendas, pagamentos de fornecedores, salários e
+outros custos. Cada transação será registrada com a data, categoria e valor.
 
-Garantir que as interações do usuário com a ferramenta sejam de maneira eficiente e correta. Cada entrada de dados, seja de estoque ou fluxo de caixa, será analisada e validada para garantir que os valores estão coerentes e corretos.  
+**Gerenciamento de Estoque:** O sistema de estoque será automatizado e
+acompanhará a entrada e saída de mercadorias em tempo real, registrando a
+quantidade de ingredientes disponíveis, além disso, o usuário poderá analisar o
+histórico de entradas e saídas, ajudando na programação dos próximos eventos.
 
- 
+**Registro dos Eventos:** Será possível acessar informações sobre eventos
+anteriores, como custos, lucros, quantidades de ingredientes usados, e número de
+funcionários necessários.
 
-Assegurar no sistema o registo de transações, como transações financeiras, tanto entradas como saídas, categorizando cada movimentação (venda, pagamento de fornecedor, salário).  
-
- 
-Certificar que todas as mercadorias no estoque sejam corretamente registrado, desde a entrada e saída, proporcionando uma visibilidade da quantidade disponível no estoque.
-
+**Plataforma Responsiva:** A plataforma terá a capacidade de ser utilizada em
+dispositivos móveis, não sendo exclusiva para computadores. Qualquer usuário com
+um celular poderá utilizá-la.
 
 ### 2.3 **Tecnologias a Serem Utilizadas**
 
