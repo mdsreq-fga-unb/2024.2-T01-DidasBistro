@@ -1,8 +1,8 @@
 - Rapid application development model (RAD) – Software Engineering. GeeksforGeeks, 2024. Disponível em: Rapid application development model (RAD) – Software Engineering
 
-- RAJA, Gupta. Fundamentals of Software Engineering. Engineering Handbook. 2019.
-
 - MARSICANO, George. Slides da matéria Requisitos. 2024.
+
+- Schwaber, K., & Sutherland, J. (n.d.). Scrum Guides. 2024. Disponível em : https://scrumguides.org/
 
 **Histórico de Revisão**
 
