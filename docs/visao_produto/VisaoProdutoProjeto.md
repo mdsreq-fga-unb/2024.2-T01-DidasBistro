@@ -9,11 +9,15 @@ Fundado em 2012, o negócio teve início com a venda de churros ambulante. Com o
 A partir de 2016, o Dida's Bistrô passou a organizar eventos privados, focando em festas juninas. Em 2022, recebeu o prêmio Sesc Comerciário Destaque, em reconhecimento pelas festas juninas realizadas nos Sesc de Brasília.
 
 ### 1.2 **Identificação da Oportunidade ou Problema**
-O principal problema do Didas Bistrô é a perda ou má interpretação dos dados, o que é causado pelo uso exclusivo de papel para registro e controle. Isso dificulta o planejamento do negócio, já que, muitas vezes, a equipe não tem acesso a informações cruciais sobre eventos passados, como lucro, número de funcionários necessários e quantidade de ingredientes utilizados. Como resultado, a contabilidade fica comprometida, dificultando a análise de gastos, faturamento e lucro de cada evento. Além disso, a falta de registros adequados prejudica o planejamento futuro, pois não é possível avaliar se vale a pena repetir determinados eventos, já que os dados históricos estão frequentemente perdidos ou inacessíveis.
+O principal problema do Didas Bistrô é a perda de dados, causada pelo uso exclusivo de anotações em papel. Essas anotações são feitas por diferentes funcionários, sem qualquer padronização, e acabam se perdendo no meio de tantas informações, seja durante ou após os eventos. Além disso, é difícil armazená-las de forma organizada, o que impede o acesso rápido e eficiente aos dados de eventos anteriores.
 
-A falta de um sistema de gerenciamento de estoque também é um problema significativo. Muitas vezes, a equipe do Didas Bistrô não tem controle preciso sobre o gasto com ingredientes estocados, o que dificulta o planejamento para os eventos. Além disso, a falta de um acompanhamento adequado impede que saibam exatamente a quantidade de cada produto disponível, tornando o processo de compra e organização ineficiente e aumentando o risco de desperdício ou falta de insumos durante os eventos.
+Essa falta de informações estruturadas afeta a tomada de decisões, pois a equipe muitas vezes não sabe se vale a pena participar novamente de determinados eventos, quantos funcionários foram necessários, a quantidade de ingredientes utilizados ou até mesmo o total de vendas realizadas.
+
+O problema também impacta a gestão do estoque, já que frequentemente não há um controle preciso das quantidades disponíveis. Isso compromete o planejamento para eventos futuros, dificultando tanto a organização quanto a eficiência do negócio.
+
 
 Segue abaixo um diagrama de Ishikawa sobre os problemas do cliente.
+
 
 ![Ishikawa](../imagens/FishboneDiagram.jpg)
 
@@ -23,7 +27,6 @@ Segue abaixo um diagrama de Ishikawa sobre os problemas do cliente.
 ### 1.3 **Desafios do Projeto**
 
 O principal desafio técnico é que o Didas Bistrô atualmente não utiliza nenhum software para gerenciar seus processos. Não há nenhum sistema existente que atenda aos requisitos específicos do negócio. Por isso, será necessário desenvolver uma solução do zero, capaz de atender a todas as necessidades operacionais. Além disso, é essencial que o software tenha uma interface intuitiva e de fácil usabilidade, para que qualquer pessoa, independentemente de sua experiência, consiga utilizá-lo, já que, para cada evento, são contratados profissionais diferentes.
-
 ### 1.4 **Segmentação de Clientes**
 
 O produto será destinado a dona e aos funcionários da empresa, na qual podemos dividir em dois segmentos: 
