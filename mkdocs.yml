@@ -12,8 +12,8 @@ nav:
     - Cronograma e Entregas: visao_produto/CronogramaEntregas.md
     - Interação Entre Equipe e Cliente: visao_produto/InteracaoEquipeCliente.md
     - Lições Aprendidas: visao_produto/LicoesAprendidas.md
-    - DoR e DoD: DoReDoT.md
-    - BACKLOG DO PRODUTO : BacklogdeProduto.md
+    - DoR e DoD: visao_produto/DoReDoT.md
+    - BACKLOG DO PRODUTO : visao_produto/BacklogdeProduto.md
     - Referências Bibliográficas: visao_produto/ReferenciaBibliografica.md
   - Apresentações:
     - Unidade 1: Apresentações/Unidade1/unidade1.md
