@@ -9,11 +9,13 @@ nav:
     - Cenário Atual do Cliente e do Negócio: visao_produto/VisaoProdutoProjeto.md
     - Solução Proposta: visao_produto/SolucaoProposta.md
     - Estratégias de Engenharia de Software: visao_produto/EstrategiasEngSoftware.md
+    - Engenharia de Requisitos: visao_produto/EngenhariaRequisitos.md
     - Cronograma e Entregas: visao_produto/CronogramaEntregas.md
     - Interação Entre Equipe e Cliente: visao_produto/InteracaoEquipeCliente.md
-    - Lições Aprendidas: visao_produto/LicoesAprendidas.md
+    - Requisitos de Software: visao_produto/Requisitos.md
     - DoR e DoD: visao_produto/DoReDoT.md
-    - BACKLOG DO PRODUTO : visao_produto/BacklogdeProduto.md
+    - Backlog do Produto : visao_produto/BacklogdeProduto.md
+    - Lições Aprendidas: visao_produto/LicoesAprendidas.md
     - Referências Bibliográficas: visao_produto/ReferenciaBibliografica.md
   - Apresentações:
     - Unidade 1: Apresentações/Unidade1/unidade1.md
