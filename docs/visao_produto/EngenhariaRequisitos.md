@@ -2,6 +2,7 @@
 ### 4.1 **Atividades e Técnicas da ER e RAD com Scrum**
 
 Planejamento da Release
+
 1. Elicitação e descoberta:     
 
  Entrevista: Entrevista com a cliente buscando entender a dinâmica do
