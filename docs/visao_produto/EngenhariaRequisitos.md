@@ -115,4 +115,6 @@ os requisitos existentes, levando em consideração o feedback do
 cliente e a priorização. Essa etapa vai garantir que todos os requisitos
 estejam atualizados e prontos para a implementação.
 
+### 4.2 **Engenharia de Requisitos e o RADScrum**
+
 ![tabela](../imagens/tabelapraticas.png)

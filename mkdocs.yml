@@ -12,7 +12,7 @@ nav:
     - Engenharia de Requisitos: visao_produto/EngenhariaRequisitos.md
     - Cronograma e Entregas: visao_produto/CronogramaEntregas.md
     - Interação Entre Equipe e Cliente: visao_produto/InteracaoEquipeCliente.md
-    - Requisitos de Software: visao_produto/requisitos.md
+    - Requisitos de Software: visao_produto/equisitos.md
     - DoR e DoD: visao_produto/DoReDoT.md
     - Backlog do Produto : visao_produto/BacklogdeProduto.md
     - Lições Aprendidas: visao_produto/LicoesAprendidas.md
@@ -21,8 +21,6 @@ nav:
     - Unidade 1: Apresentações/Unidade1/unidade1.md
   - Reuniões:
     - Reuniões Iniciais: reunioes/fase_inicial/fase_inicial.md
-  - Item 2.4:
-    - Tabela: item2.4/item2.4.md
 
 
 
