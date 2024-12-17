@@ -91,3 +91,9 @@ colaboração eficiente entre desenvolvedores.
 
 **RNF11 - Implementação:** O ambiente de desenvolvimento local deve utilizar
 Docker para facilitar a configuração, padronização e isolamento do ambiente.
+
+*Histórico de Revisão**
+
+| **Data**   | **Versão** | **Descrição**                                                                         | **Autor**                                                                 |
+| ---------- | ---------- | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| 16/12/2024 | 1\.0 | Criação do documento | Pedro Henrique |

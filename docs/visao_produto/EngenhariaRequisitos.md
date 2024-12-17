@@ -119,3 +119,9 @@ estejam atualizados e prontos para a implementação.
 ### 4.2 **Engenharia de Requisitos e o RADScrum**
 
 ![tabela](../imagens/tabelapraticas.png)
+
+*Histórico de Revisão**
+
+| **Data**   | **Versão** | **Descrição**                                                                         | **Autor**                                                                 |
+| ---------- | ---------- | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| 16/12/2024 | 1\.0 | Criação do documento | Pedro Gois |

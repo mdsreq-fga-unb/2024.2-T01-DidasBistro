@@ -366,3 +366,9 @@ RF6 - Título: Ordenar produtos por quantidade
 RF18 - Título: Pesquisar Funcionário
 
 RF1 - Titulo: Realizar Login
+
+*Histórico de Revisão**
+
+| **Data**   | **Versão** | **Descrição**                                                                         | **Autor**                                                                 |
+| ---------- | ---------- | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| 16/12/2024 | 1\.0 | Criação do documento | Pedro Gois |s
