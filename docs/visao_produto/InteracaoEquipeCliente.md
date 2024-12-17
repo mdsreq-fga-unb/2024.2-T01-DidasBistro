@@ -1,4 +1,4 @@
-### 5.1 **Composição da Equipe**
+### 6.1 **Composição da Equipe**
 
 # Papéis e Responsabilidades
 
@@ -11,7 +11,7 @@
 | **Analista de Requisitos** | Define os requisitos funcionais e não funcionais do sistema e garante que eles sejam atendidos. | Pedro Gois Monteiro Marques            | Mateus Henrique, Pedro Henrique dos Santos Ferreira, Benjamin Lacerda Santos, Iderlan Júnio Cardoso da Silva, Felipe Fernandes Brandim.                                                              |
 
 
-### 5.2 **Comunicação**
+### 6.2 **Comunicação**
 
 **Ferramentas de Comunicação:** 
 
@@ -48,7 +48,7 @@
 **Interações Adicionais pelo Microsoft Teams:** A cliente tem acesso a um canal de discussão no Microsoft Teams, em que todos os membros participaram e é possível tirar dúvidas ou se necessário,fazer ajustes. 
 
   
-### 5.3 **Processo de Validação**
+### 6.3 **Processo de Validação**
 
 **Validação de Requisitos:**
 Antes de iniciar o desenvolvimento da funcionalidadeS ou iterações, os requisitos do cliente são revisados e validados com ele. Isso ocorre através da *planning*, onde o cliente tem a oportunidade de revisar os requisitos, inclusive pedindo ao cliente que priorize os requisitos que levantamos nas etapas anteriores.

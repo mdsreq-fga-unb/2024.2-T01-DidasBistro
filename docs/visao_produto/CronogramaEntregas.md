@@ -1,4 +1,4 @@
-
+### 5 **CRONOGRAMA E ENTREGAS**
 # Calendário de Sprints
 
 | Sprint | Início  | Fim     | Objetivo Principal | Entregas Esperadas | Validação do Cliente |
