@@ -1,5 +1,5 @@
 ### 9.1 **Backlog Geral**
-Nosso backlog foi estruturado utilizando histórias de usuário para garantir clareza e foco nas necessidades do negócio e dos usuários finais. As histórias seguem um formato padronizado, começando pela identificação do ator (*Como um(a):*), o objetivo (*Eu quero:*) e o benefício esperado (*Para que:*), assegurando que cada item esteja alinhado com o propósito do sistema. Além disso, cada história inclui critérios de aceitação bem definidos, que detalham os comportamentos esperados, como validações, respostas a falhas, e condições específicas de funcionamento. Esse padrão facilita a priorização, promove um entendimento comum entre os membros do time e stakeholders, e serve como base para validação durante o desenvolvimento, garantindo que as entregas atendam às expectativas de qualidade e funcionalidade.
+Nosso backlog foi estruturado utilizando histórias de usuário para garantir clareza e foco nas necessidades do negócio e dos usuários finais. As histórias seguem um formato padronizado, começando pela identificação do ator (*Como um(a):*), o objetivo (*Eu quero:*) e o benefício esperado (*Para que:*), assegurando que cada item esteja alinhado com o propósito do sistema. Além disso, cada história inclui critérios de aceitação bem definidos, que detalham os comportamentos esperados, como validações, respostas a falhas, e condições específicas de funcionamento. Esse padrão facilita a priorização, promove um entendimento comum entre os membros do time e stakeholders, e serve como base para validação durante o desenvolvimento, garantindo que as entregas atendam às expectativas de qualidade e funcionalidade.(Caso queira visualizar o backlog completo [Veja o quadro do Miro](https://miro.com/app/embed/uXjVL4APDBU=/?pres=1&frameId=3458764610726700753&embedId=848713241918))
 
 RF1 - Titulo: Realizar Login    
 Como um(a): Dono do Negócio     
@@ -202,4 +202,167 @@ Critérios de aceitação:
 4-Se nenhum funcionário for encontrado, o sistema deve exibir uma mensagem.        
 5-Caso ocorra um erro, deve ser exibida uma mensagem clara com o motivo do erro.      
 
+### 9.2 **Priorização**
+Aqui está a fórmula usada para a priorização dos requisitos, com foco em valorizar significativamente a frequência de uso.
 
+![formula](../imagens/formula.png)
+
+
+RF1 - Titulo: Realizar Login        
+Valor de Negócio: 5     
+Complexidade Técnica: 4     
+Frequência de Uso: 1        
+Prioridade: 7,5     
+
+RF2 - Titulo: Cadastro de Produto       
+Valor de Negócio: 5     
+Complexidade Técnica: 2     
+Frequência de Uso: 3        
+Prioridade: 45      
+
+RF3 - Título: Pesquisa de Produto       
+Valor de Negócio: 5         
+Dificuldade técnica: 3      
+Frequência de Uso: 3        
+Prioridade: 30
+
+RF4 - Título: Exclusão de Produto       
+Valor de Negócio: 3     
+Complexidade Técnica: 3     
+Frequência de Uso: 2                
+Prioridade: 12
+
+RF5 - Título: Atualização de Produto        
+Valor de Negócio: 5     
+Complexidade Técnica: 2     
+Frequência de Uso: 2        
+Prioridade: 30
+
+
+RF6 - Título: Ordenar produtos por quantidade       
+Valor de negócio: 5     
+Complexidade Técnica: 3     
+Frequência de Uso: 1        
+Prioridade: 10
+
+
+RF7 - Título: Cadastro de Evento        
+Valor de negócio: 5     
+Dificuldade técnica: 2      
+Frequência de Uso: 2        
+Prioridade: 30
+
+
+
+RF8 - Titulo: Cadastro de Gastos do evento      
+Valor de negócio: 5     
+Dificuldade técnica: 2      
+Frequência de Uso: 2        
+Prioridade:30
+
+RF9 -Título: Cadastro de Ganhos do Evento       
+Valor de Negócio: 5     
+Complexidade Técnica: 2     
+frequência de uso: 2        
+Prioridade: 20
+
+RF10 - Título: Gerar Relatório Referente aos Ganhos e Gastos do evento      
+Valor de Negócio: 5     
+Complexidade Técnica:2      
+frequência de uso: 2        
+Prioridade: 30
+
+
+RF11 - Título: Pesquisar Eventos Passados       
+Valor de Negócio:5      
+Complexidade Técnica:2      
+frequência de uso: 3        
+Prioridade: 45
+
+
+RF12 - Título: Pesquisar Eventos Futuros        
+Valor de Negócio:5      
+Complexidade Técnica:3      
+frequência de uso: 3        
+Prioridade: 30
+
+RF13 - Título: Atualizar dados dos eventos      
+Valor de Negócio:5      
+Complexidade Técnica:2      
+frequência de uso: 2        
+Prioridade: 30
+
+RF14 - Título: Cadastro de Funcionário      
+Valor de Negócio:5      
+Complexidade Técnica:1      
+frequência de uso:1     
+Prioridade: 30      
+
+RF15 - Título: Excluir funcionário      
+Valor de Negócio: 4     
+Complexidade técnica:1      
+frequência de uso: 1        
+Prioridade: 24
+
+RF16 - Título: Atualizar dados dos funcionários     
+Valor de Negócio:5      
+Complexidade Técnica:1      
+Frequência de Uso: 1        
+Prioridade: 30
+
+RF17 - Título: Registro de Pagamento de funcionário     
+Valor de Negócio:5      
+Complexidade Técnica:2      
+Frequência de Uso: 1        
+Prioridade: 15
+
+RF18 - Título: Pesquisar Funcionário        
+Valor de Negócio:5      
+Complexidade Técnica:2      
+Frequência de Uso: 1        
+Prioridade: 30
+
+### 9.3 **MVP**
+
+Com base na priorização feita e visando entregar maior valor para o cliente nosso mvp será composto dos seguintes requisitos:
+
+RF2 - Titulo: Cadastro de Produto
+
+RF12 - Título: Pesquisar Eventos Futuros
+
+RF11 - Título: Pesquisar Eventos Passados
+
+RF3 - Título: Pesquisa de Produto
+
+RF5 - Título: Atualização de Produto
+
+RF10 - Título: Gerar Relatório Referente aos Ganhos e Gastos do evento
+
+RF13 - Título: Atualizar dados dos eventos
+
+RF14 - Título: Cadastro de Funcionário
+
+RF15 - Título: Excluir funcionário
+
+RF17 - Título: Registro de Pagamento de funcionário
+
+RF7 - Título: Cadastro de Evento
+
+RF8 - Titulo: Cadastro de Gastos do evento
+
+RF9 -Título: Cadastro de Ganhos do Evento
+
+RF16 - Título: Atualizar dados dos funcionários
+
+- **Possiveis incrementos**
+
+
+RF16 - Título: Atualizar dados dos funcionários
+
+RF4 - Título: Exclusão de Produto
+
+RF6 - Título: Ordenar produtos por quantidade
+
+RF18 - Título: Pesquisar Funcionário
+
+RF1 - Titulo: Realizar Login

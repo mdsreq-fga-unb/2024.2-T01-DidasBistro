@@ -96,6 +96,10 @@ armazenar e consultar grandes volumes de dados.
 - **Figma**: Ferramenta de prototipação e design de interfaces, permitindo a criação
 de layouts interativos.
 
+- **Canvas**: Ferramenta para criação de slides para as apresentações das unidades.
+
+
+
 ### 2.4 **Pesquisa de Mercado e Análise Competitiva**
 
 **MarketMan**
