@@ -1,34 +1,90 @@
-site_name: 2024.2-T01-DidasBistro
-
-repo_name: '2024.2-T01-DidasBistro'
-repo_url: 'https://github.com/mdsreq-fga-unb/2024.2-T01-DidasBistro'
-
-nav:
-  - Home: index.md
-  - Visão do Produto e Projeto:
-    - Cenário Atual do Cliente e do Negócio: visao_produto/VisaoProdutoProjeto.md
-    - Solução Proposta: visao_produto/SolucaoProposta.md
-    - Estratégias de Engenharia de Software: visao_produto/EstrategiasEngSoftware.md
-    - Engenharia de Requisitos: visao_produto/EngenhariaRequisitos.md
-    - Cronograma e Entregas: visao_produto/CronogramaEntregas.md
-    - Interação Entre Equipe e Cliente: visao_produto/InteracaoEquipeCliente.md
-    - Requisitos de Software: visao_produto/requisitos.md
-    - DoR e DoD: visao_produto/DoReDoT.md
-    - Backlog do Produto : visao_produto/BacklogdeProduto.md
-    - Lições Aprendidas: visao_produto/LicoesAprendidas.md
-    - Referências Bibliográficas: visao_produto/ReferenciaBibliografica.md
-  - Apresentações:
-    - Unidade 1: Apresentações/Unidade1/unidade1.md
-    - Unidade 2: Apresentações/Unidade1/unidade2.md
-  - Reuniões:
-    - Reuniões Iniciais: reunioes/fase_inicial/fase_inicial.md
-
-
+site_name: Dida's Bistro
+extra_css:
+  - assets/stylesheets/extra.css
 
 theme:
+  favicon: imagens/didasico.png
+  logo: imagens/didasico.png
   name: material
-  language: 'pt'
-  logo: imagens/didas-icon.ico
-  favicon: assets/unbtv-icon.ico
+  repo_url: 'https://github.com/mdsreq-fga-unb/2024.2-T01-DidasBistro'
+  repo_name: '2024.2-T01-DidasBistro'
+
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
   palette:
-    primary: blue green
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+      primary: 
+      accent: purple
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+      primary: 
+      accent: lime
+
+nav:
+  - Dida's Bistro: index.md
+  - Visão do Produto e Projeto:
+      - 1 Cenário Atual do Cliente e do Negócio: visao_produto/VisaoProdutoProjeto.md
+      - 2 Solução Proposta: visao_produto/SolucaoProposta.md
+      - 3 Estratégias de Engenharia de Software: visao_produto/EstrategiasEngSoftware.md
+      - 4 Engenharia de Requisitos: visao_produto/EngenhariaRequisitos.md
+      - 5 Cronograma e Entregas: visao_produto/CronogramaEntregas.md
+      - 6 Interação Entre Equipe e Cliente: visao_produto/InteracaoEquipeCliente.md
+      - 7 Requisitos de Software: visao_produto/requisitos.md
+      - 8 DoR e DoD: visao_produto/DoReDoT.md
+      - 9 Backlog do Produto : visao_produto/BacklogdeProduto.md
+      - 10 Lições Aprendidas: visao_produto/LicoesAprendidas.md
+      - Referências Bibliográficas: visao_produto/ReferenciaBibliografica.md
+  - Apresentações:
+      - Unidade 1: Apresentações/Unidade1/unidade1.md
+      - Unidade 2: Apresentações/Unidade1/unidade2.md
+  - Reuniões:
+      - Reuniões Iniciais: reunioes/fase_inicial/fase_inicial.md
+
+
+# site_name: 2024.2-T01-DidasBistro
+
+# repo_name: '2024.2-T01-DidasBistro'
+# repo_url: 'https://github.com/mdsreq-fga-unb/2024.2-T01-DidasBistro'
+
+# nav:
+#   - Home: index.md
+#   - Visão do Produto e Projeto:
+#     - Cenário Atual do Cliente e do Negócio: visao_produto/VisaoProdutoProjeto.md
+#     - Solução Proposta: visao_produto/SolucaoProposta.md
+#     - Estratégias de Engenharia de Software: visao_produto/EstrategiasEngSoftware.md
+#     - Engenharia de Requisitos: visao_produto/EngenhariaRequisitos.md
+#     - Cronograma e Entregas: visao_produto/CronogramaEntregas.md
+#     - Interação Entre Equipe e Cliente: visao_produto/InteracaoEquipeCliente.md
+#     - Requisitos de Software: visao_produto/requisitos.md
+#     - DoR e DoD: visao_produto/DoReDoT.md
+#     - Backlog do Produto : visao_produto/BacklogdeProduto.md
+#     - Lições Aprendidas: visao_produto/LicoesAprendidas.md
+#     - Referências Bibliográficas: visao_produto/ReferenciaBibliografica.md
+#   - Apresentações:
+#     - Unidade 1: Apresentações/Unidade1/unidade1.md
+#     - Unidade 2: Apresentações/Unidade1/unidade2.md
+#   - Reuniões:
+#     - Reuniões Iniciais: reunioes/fase_inicial/fase_inicial.md
+
+
+
+# theme:
+#   name: material
+#   language: 'pt'
+#   logo: imagens/didas-icon.ico
+#   favicon: assets/unbtv-icon.ico
+#   palette:
+#     primary: blue green

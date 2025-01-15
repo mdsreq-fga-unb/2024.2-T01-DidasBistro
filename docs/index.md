@@ -1,12 +1,33 @@
 # Dida's Bistro
 
-## Equipe
+## 👥 Desenvolvedores
 
-| Foto | Nome | Github  | Matrícula |
-|:----:|:----:|:------:|:---------:|
-| <img width="100px" style="border-radius:10%" src="https://github.com/benlacerda.png" alt="Benjamim Lacerda Santos"> | Benjamim Lacerda Santos | @benlacerda | 200062123 |
-| <img width="100px" style="border-radius:10%" src="https://github.com/IderlanJ.png" alt="Iderlan Junio Cardoso da Silva"> | Iderlan Júnio Cardoso da Silva | @IderlanJ | 211062947 |
-| <img width="100px" style="border-radius:10%" src="https://github.com/Mateushqms.png" alt="Mateus Henrique Queiroz Magalhães Sousa"> | Mateus Henrique Queiroz Magalhães Sousa | @Mateushqms | 222025950 |
-| <img width="100px" style="border-radius:10%" src="https://github.com/Goizzz.png" alt="Pedro Gois Marques Monteiro"> | Pedro Gois Marques Monteiro | @Goizzz | 222026386 |
-| <img width="100px" style="border-radius:10%" src="https://github.com/Pedro-hsf.png" alt="Pedro Henrique dos Santos Ferreira"> | Pedro Henrique dos Santos Ferreira | @Pedro-hsf | 211063229 |
-| <img width="100px" style="border-radius:10%" src="https://github.com/Felipe-Brandim.png" alt="Felipe Fernandes Brandim"> | Felipe Fernandes Brandim | @Felipe-Brandim | 202016201 |
+<center>
+<table style="margin-left: auto; margin-right: auto;">
+    <tr>
+        <td align="center">
+            <a href="https://github.com/IderlanJ">
+                <img style="border-radius: 50%;" src="https://github.com/IderlanJ.png" width="150px;"/>
+                <h5 class="text-center">Iderlan</h5>
+            </a>
+        </td>
+        <td align="center">
+            <a href="https://github.com/Mateushqms">
+                <img style="border-radius: 50%;" src="https://github.com/Mateushqms.png" width="150px;"/>
+                <h5 class="text-center">Mateus Henrique</h5>
+            </a>
+        </td>
+        </td>
+        <td align="center">
+            <a href="https://github.com/Goizzz">
+                <img style="border-radius: 50%;" src="https://github.com/Goizzz.png" width="150px;"/>
+                <h5 class="text-center">Pedro Gois</h5>
+            </a>
+        </td>
+        <td align="center">
+            <a href="https://github.com/Felipe-Brandim">
+                <img style="border-radius: 50%;" src="https://github.com/Felipe-Brandim.png" width="150px;"/>
+                <h5 class="text-center">Fellipe Brandim</h5>
+            </a>
+</table>
+</center>
