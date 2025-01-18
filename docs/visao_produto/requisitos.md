@@ -53,26 +53,29 @@ funcionários cadastrados.
 
 ### **7.2 Lista de Requisitos Não Funcionais**
 
-**RNF01 - Usabilidade:** A interface deve ser projetada para usuários com
-pouca familiaridade com tecnologia, garantindo que as interações sejam
-intuitivas e de fácil entendimento.
+**RNF01 - Usabilidade:** interface do sistema deve permitir que usuários com pouca
+familiaridade tecnológica consigam realizar tarefas principais (cadastro, busca e
+visualização de informações) sem a necessidade de assistência externa, com um
+tempo médio de aprendizado inferior a 10 minutos.
 
 **RNF02 - Desempenho:** O tempo de resposta para interações no software
 deve ser de até dois segundos, mesmo durante operações de alta carga.
+
 **RNF03 - Desempenho:** O software deve garantir acesso simultâneo de até
 cinco usuários sem impacto significativo no desempenho.
 
-**RNF04 - Escalabilidade:** O sistema deve permitir a adição de novas
-funcionalidades sem necessidade de refatorações complexas, facilitando o
-crescimento do software.
+**RNF04 - Escalabilidade:** O sistema deve suportar pelo menos novas funcionalidades
+sem a necessidade de refatorações que excedam 30% do código base existente,
+mantendo o desempenho dentro de 90% do tempo de resposta inicial
 
-**RNF05 - Suportabilidade:** O sistema deve ser compatível com dispositivos
-móveis Android e iOS, além de plataformas desktop, garantindo
-acessibilidade ampla.
+**RNF05 - Suportabilidade:** O sistema deve ser compatível com dispositivos móveis
+com Android 8.0 ou superior, iOS 12.0 ou superior, e em navegadores desktop
+compatíveis com HTML5.
 
-**RNF06 - Implementação:** Alterações no banco de dados devem ser
-acompanhadas de um log interno associado, registrando todas as
-modificações realizadas.
+**RNF06 - Implementação:** Todas as alterações no banco de dados (inserções,
+atualizações, exclusões) devem ser acompanhadas por um registro em um log
+interno detalhado, contendo o identificador da modificação, data e hora, tipo da
+modificação, usuário responsável e a descrição da alteração.
 
 **RNF07 - Implementação:** O código front-end deve seguir padrões do React
 JS para garantir consistência e aderência a boas práticas de
@@ -92,7 +95,7 @@ colaboração eficiente entre desenvolvedores.
 **RNF11 - Implementação:** O ambiente de desenvolvimento local deve utilizar
 Docker para facilitar a configuração, padronização e isolamento do ambiente.
 
-*Histórico de Revisão**
+**Histórico de Revisão**
 
 | **Data**   | **Versão** | **Descrição**                                                                         | **Autor**                                                                 |
 | ---------- | ---------- | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
