@@ -16,7 +16,7 @@
       
       
       <link rel="icon" href="../../assets/unbtv-icon.ico">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.48">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.46">
     
     
       
@@ -845,61 +845,133 @@
   <h1>Solução Proposta</h1>
 
 <h3 id="21-objetivos-do-produto">2.1 <strong>Objetivos do Produto</strong></h3>
-<p>Nosso objetivo é resolver os problemas causados pela perda de dados, criando um
-meio de armazená-los e acessá-los. Isso vai auxiliar na tomada de decisões no
-Didas Bistrô, facilitando o acompanhamento de eventos anteriores, o controle de
-estoque e o planejamento para futuros eventos. Com o intuito de alcançar esse
-objetivo, a plataforma será desenvolvida para:</p>
-<p><strong>Centralizar o registro de dados em uma plataforma digital</strong>, substituindo o
-uso exclusivo do papel. Permitindo acesso a informações cruciais sobre
-eventos passados, como lucro, número de funcionários necessários e
-quantidade de ingredientes utilizados.</p>
-<p><strong>Implementar um sistema de gestão financeira</strong>, permitindo que os usuários
-possam analisar gastos, faturamento e lucros de cada evento.</p>
-<p><strong>Criar um sistema de gerenciamento de estoque</strong>, para monitorar a
-quantidade de ingredientes disponíveis em tempo real.</p>
-<p><strong>Prover acesso a registro de eventos passados</strong>, facilitando o planejamento
-futuro.</p>
-<p><strong>Objetivos secundários:</strong></p>
-<p>Criar uma interface voltada para usuários que não possuem experiência com
-tecnologias.</p>
-<p>Assegurar que a plataforma seja responsiva, adaptando para dispositivos
-móveis.</p>
+<p>Nosso objetivo é resolver os problemas causados pela perda de dados por meio de
+centralizar todos os registros de dados em uma plataforma digital. Isso vai auxiliar
+na tomada de decisões do Didas Bistrô, priorizando a gestão de eventos e
+planejamento de estoque. Com intuito de alcançar esse objetivo, a plataforma será
+desenvolvida para:</p>
+<p><strong>Centralizar os registros de dados em uma plataforma digital</strong>, para guardar todas as
+informações cruciais. Sendo exclusiva do Didas Bistrô.</p>
+<p><strong>Gestão dos eventos</strong>, assegurar que seja possível acessar eventos passados, futuros,
+adicionar e atualizar eventos.</p>
+<p><strong>Planejamento e gerenciamento de estoque</strong>, para acompanhar o consumo de
+ingredientes de eventos anteriores e antecipar a demanda, incluindo adicionar,
+excluir e atualizar um produto.</p>
+<p><strong>Implementar um sistema de gestão financeira</strong>, permitindo que os usuários possam
+analisar gastos, faturamento e lucros de cada evento.</p>
+<p><strong>Objetivos secundários</strong>:</p>
+<p><strong>Interface Intuitiva</strong>, criar uma interface voltada para usuários que não possuem
+experiência com tecnologias.</p>
+<p><strong>Plataforma responsiva</strong>, assegurar que a plataforma seja responsiva, adaptando para
+dispositivos móveis.</p>
+<p><strong>Gerenciar Funcionário</strong>, será possível cadastra e excluir funcionários, assim como
+acessar as suas informações.</p>
 <h3 id="22-caracteristicas-da-solucao">2.2 <strong>Características da Solução</strong></h3>
-<p><strong>Interface intuitiva:</strong> A plataforma vai possuir uma interface de fácil entendimento
-que busca apresentar ao usuário que a sua navegação será autoexplicativa, desde
-os botões e menus, o intuito é demonstrar a sua acessibilidade ao usuário.</p>
-<p><strong>Sistema de Contabilidade Integrado:</strong> Será possível registrar e categorizar todas
-as transações financeiras, como vendas, pagamentos de fornecedores, salários e
+<p><strong>Centralizar os Registros de Dados em uma Plataforma Digital</strong>: substituindo o uso
+exclusivo do papel. Permitindo acesso a informações cruciais sobre eventos
+passados, como lucro, número de funcionários necessários e quantidade de
+ingredientes utilizados, com a possibilidade de gerar relatórios sobre essas
+informações.</p>
+<p><strong>Gestão de Eventos</strong>: Será possível cadastrar, atualizar e acessar informações sobre
+eventos anteriores, como custos, lucros, quantidades de ingredientes usados, e
+número de funcionários necessários.</p>
+<p><strong>Planejamento de Estoque e Gerenciamento de Estoque</strong>: O sistema vai garantir que
+seja possível adicionar, remover e atualizar produtos, incluindo ordena-los. Além
+disso, o usuário será capaz de acompanhar o consumo de ingredientes de eventos
+anteriores e antecipar a demanda, evitando desperdícios e assegurando a
+disponibilidade de produtos essenciais.</p>
+<p><strong>Sistema de Contabilidade Integrado</strong>: Será possível registrar e categorizar todas as
+transações financeiras, como vendas, pagamentos de fornecedores, salários e
 outros custos. Cada transação será registrada com a data, categoria e valor.</p>
-<p><strong>Gerenciamento de Estoque:</strong> O sistema de estoque será automatizado e
-acompanhará a entrada e saída de mercadorias em tempo real, registrando a
-quantidade de ingredientes disponíveis, além disso, o usuário poderá analisar o
-histórico de entradas e saídas, ajudando na programação dos próximos eventos.</p>
-<p><strong>Registro dos Eventos:</strong> Será possível acessar informações sobre eventos
-anteriores, como custos, lucros, quantidades de ingredientes usados, e número de
-funcionários necessários.</p>
-<p><strong>Plataforma Responsiva:</strong> A plataforma terá a capacidade de ser utilizada em
+<p><strong>Interface Intuitiva</strong>: A plataforma será projeta com um design simples, priorizando a
+usabilidade para qualquer tipo de usuário, seja com pouco ou nenhuma experiência
+com tecnologia. Os botões, menus e outros elementos da navegação serão
+apresentados de forma clara a autoexplicativa.</p>
+<p><strong>Plataforma Responsiva</strong>: A plataforma terá a capacidade de ser utilizada em
 dispositivos móveis, não sendo exclusiva para computadores. Qualquer usuário com
 um celular poderá utilizá-la.</p>
+<p><strong>Gerenciamento de Funcionário</strong>: Será possível realizar o cadastro, exclusão e
+atualização de funcionário, também de visualizar as suas informações.</p>
 <h3 id="23-tecnologias-a-serem-utilizadas">2.3 <strong>Tecnologias a Serem Utilizadas</strong></h3>
+<p><strong>Frontend</strong>:</p>
+<ul>
+<li>
+<p><strong>JavaScript</strong>: Linguagem de programação utilizada para o desenvolvimento de
+páginas web interativas.</p>
+</li>
+<li>
+<p><strong>React.JS</strong>: Biblioteca JavaScript para a construção de interfaces visuais,
+integrando HTML, CSS e JavaScript.</p>
+</li>
+</ul>
+<p><strong>Backend</strong>:</p>
+<ul>
+<li>
+<p><strong>Node.JS</strong>: Ambiente de execução para JavaScript no lado do servidor, utilizado
+no desenvolvimento de back-end.</p>
+</li>
+<li>
+<p><strong>Python</strong>: Linguagem de alto nível usada no desenvolvimento de back-end,
+automação e ciência de dados.</p>
+</li>
+<li>
+<p><strong>Flask (Python)</strong>: Microframework leve para o desenvolvimento de APIs e
+aplicações web.</p>
+</li>
+</ul>
+<p><strong>Banco de Dados</strong>:</p>
+<ul>
+<li><strong>MySQL</strong>: Sistema de gerenciamento de banco de dados relacional para
+armazenar e consultar grandes volumes de dados.</li>
+</ul>
+<p><strong>Design e Prototipação</strong>:</p>
+<ul>
+<li><strong>Figma</strong>: Ferramenta de prototipação e design de interfaces, permitindo a criação
+de layouts interativos.</li>
+</ul>
 <h3 id="24-pesquisa-de-mercado-e-analise-competitiva">2.4 <strong>Pesquisa de Mercado e Análise Competitiva</strong></h3>
-<p><strong>MarketMan</strong> </p>
-<p><strong>Pontos Fortes:</strong> Sistema robusto de controle de estoque e integração com fornecedores, o que permite otimizar o gerenciamento de insumos e reduzir desperdícios. Ideal para negócios focados em reduzir custos operacionais. </p>
-<p><strong>Diferenciação da Nossa Solução:</strong> Nossa solução prioriza a facilidade de uso e a comunicação intuitiva com a cliente, oferecendo uma interface simplificada que atenderá especificamente às necessidades de gestão de eventos e adaptação rápida do estoque conforme o tipo de evento. </p>
-<p><strong>Toast</strong> </p>
-<p><strong>Pontos Fortes:</strong> Plataforma completa para operações de restaurantes, abrangendo vendas, estoque e relatórios, com suporte para integração de pedidos online e ferramentas de POS. </p>
-<p><strong>Diferenciação da Nossa Solução:</strong> Ao invés de uma plataforma genérica e complexa, nossa solução será projetada especificamente para o Dida’s Bistrô, oferecendo um sistema voltado para o fluxo financeiro e controle de mercadorias apenas para eventos, facilitando o planejamento financeiro e a usabilidade da cliente. </p>
-<p><strong>A solução proposta é divergente devido:</strong>  </p>
-<p>Nossa solução tem como ponto principal uma curva de aprendizado iniciante, pois toda a plataforma será feita com o intuito de ser o mais autoexplicativo o possível que atenderá especificamente às necessidades de gestão de eventos adaptando rapidamente o estoque conforme o tipo de evento.  </p>
-<p>Diferenciando das soluções apresentadas que por mais que estão consolidadas no mercado, o produto é projetado especificamente para o Dida's Bistrô, oferecendo um sistema voltado para gerenciar as entradas e saídas de mercadorias e transações financeiras. Por não exigir um hardware ou aparelho específico, tornaremos nosso produto a escolha ideal para o cliente, que será necessário apenas um aparelho celular ou computador. </p>
+<p><strong>MarketMan</strong></p>
+<p><strong>Pontos Fortes</strong>: Sistema robusto de controle de estoque e integração com
+fornecedores, o que permite otimizar o gerenciamento de insumos e reduzir
+desperdícios. Ideal para negócios focados em reduzir custos operacionais.</p>
+<p><strong>O diferencial da nossa solução</strong>: Vamos priorizar a facilidade de uso e a
+comunicação intuitiva com a cliente, oferecendo uma interface simplificada que
+atenderá especificamente às necessidades de gestão de eventos e adaptação
+rápida do estoque conforme o tipo de evento.</p>
+<p><strong>Toast</strong></p>
+<p><strong>Pontos Fortes</strong>: Plataforma completa para operações de restaurantes, abrangendo
+vendas, estoque e relatórios, com suporte para integração de pedidos online e
+ferramentas de POS.</p>
+<p><strong>O diferencial da nossa solução</strong>: Ao invés de uma plataforma genérica e complexa,
+nossa plataforma será projetada especificamente para o Didas Bistrô, oferecendo
+um sistema voltado para a gestão dos Eventos que consiga gerar relatórios e
+armazene todas as informações de dados, sejam de estoque, financeiro e
+funcionários, auxiliando na tomada de decisões do Didas Bistrô.</p>
+<p><strong>A solução proposta é divergente devido</strong>:</p>
+<p>Nossa solução se destaca por oferecer uma curva de aprendizado iniciante, 
+sendo projetada para ser o mais autoexplicativa possível. Ela atende
+especificamente às necessidades de gestão de eventos, adaptando rapidamente o
+estoque conforme o tipo de evento.</p>
+<p>Diferente das soluções apresentadas, que, apesar de consolidadas no mercado, o
+nosso produto é projetado especificamente para o Didas Bistrô, não possui custo
+monetário ao cliente, oferece um sistema voltado para gerenciar e armazenas todos
+os registros de dados e otimizar suas atividades.</p>
+<p>Outro diferencial importante é que, por não exigir hardware específico, nosso
+produto torna-se a escolha ideal, pois o cliente precisará apenas de um celular ou
+computador para utilizá-lo, tornando a solução acessível e prática.</p>
 <h3 id="25-analise-de-viabilidade">2.5 <strong>Análise de Viabilidade</strong></h3>
 <p>A viabilidade técnica do projeto é alta, uma vez que boa parte da equipe de desenvolvimento possui experiência nas tecnologias que serão utilizadas, como Python para o backend e Node.js e React.js para o frontend. Será utilizado um sistema de gerenciamento de banco de dados relacional, o MySQL, que permitirá armazenar, organizar e consultar grandes volumes de dados. </p>
 <p>O projeto será conduzido por meio de sprints divididas em ciclos quinzenais. Cada sprint terá entregas incrementais de funcionalidades, o que permitirá validações constantes por parte do cliente e ajustes rápidos baseados no feedback do mesmo. O cronograma é considerado viável, dado que a equipe já teve contato com projetos semelhantes anteriormente e conta com os recursos tecnológicos necessários para realizar a integração e implementação das funcionalidades dentro do prazo estipulado. </p>
 <p>Em termos de viabilidade financeira, o desenvolvimento do sistema é totalmente sustentável, com custos alinhados aos recursos disponíveis para a equipe. Dessa forma, o cliente não enfrentará problemas futuros relacionados a custos extras, pois não dependerá de soluções externas. O Dida’s Bistrô contará com um sistema personalizado, garantindo maior controle e eficiência em todos os processos. </p>
 <p>Do ponto de vista de mercado, a viabilidade é favorável, pois há uma certa demanda por soluções de gestão em pequenos estabelecimentos como o Dida's Bistrô. Com isso, será possível atender ao cliente de forma eficaz, atendendo diretamente às suas necessidades para gerir seu negócio.</p>
 <h3 id="26-impacto-da-solucao">2.6 <strong>Impacto da Solução</strong></h3>
-<p>A solução trará ao Dida’s Bistrô uma operação mais eficiente e transparente. Ao otimizar o controle de estoque, o fluxo de caixa e o pagamento de funcionários, o sistema fortalecerá a capacidade de o restaurante operar de forma rentável e bem-organizada. Esses benefícios permitirão que o Dida’s Bistrô melhore sua eficiência operacional, reduza custos e adapte-se de maneira ágil aos diversos tipos de eventos que realiza, aumentando a lucratividade e assegurando uma gestão mais tranquila e profissional.</p>
+<p>A solução trará ao Didas Bistrô uma operação mais eficiente e transparente. Ao
+armazenar as informações dos eventos, otimizar o controle de estoque, o fluxo de
+caixa e o pagamento de funcionários, o sistema fortalecerá a capacidade do
+restaurante operar de forma rentável e bem-organizada. Esses benefícios permitirão
+que o Didas Bistrô melhore sua eficiência operacional, reduza custos e adapte-se de
+maneira ágil aos diversos tipos de eventos que realiza, aumentando a lucratividade e
+assegurando uma gestão mais tranquila e profissional.</p>
 <p><strong>Histórico de Revisão</strong></p>
 <table>
 <thead>
@@ -928,6 +1000,12 @@ um celular poderá utilizá-la.</p>
 <td>1.0</td>
 <td>Primeira versão do documento</td>
 <td>Benjamim Lacerda Santos, Iderlan Junio Cardoso da Silva, Mateus Henrique Queiroz Magalhães Sousa, Pedro Gois Marques Monteiro, Pedro Henrique</td>
+</tr>
+<tr>
+<td>16/12/2024</td>
+<td>1.1</td>
+<td>Atualização do Documento</td>
+<td>Iderlan Junio</td>
 </tr>
 </tbody>
 </table>
