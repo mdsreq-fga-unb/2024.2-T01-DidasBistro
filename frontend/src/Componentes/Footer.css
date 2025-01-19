@@ -1,0 +1,58 @@
+/* Estilo principal do footer */
+.footer {
+  background-color: #ff7f00;  /* Cor de fundo laranja */
+  color: white;
+  display: flex;
+  justify-content: space-between;  /* Distribui os itens de forma espaçada */
+  align-items: center;  /* Alinha os itens verticalmente no centro */
+  padding: 20px 20px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+
+.footer-title {
+  font-size: 2rem;  
+  font-weight: bold;
+  padding-left: 10px; 
+  margin-left: 400px; 
+}
+
+/* Estilo da navegação do footer */
+.footer-nav {
+  display: flex;
+  justify-content: flex-start;  /* Alinha os links de navegação à esquerda */
+  gap: 40px;  /* Espaçamento maior entre os links */
+  margin-right: 300px;
+  
+}
+
+.footer-nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.5rem;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+
+/* Responsividade: Ajusta layout para telas menores */
+@media (max-width: 600px) {
+  .footer {
+    padding: 15px;
+    flex-direction: column;  /* Organiza os itens em coluna em telas menores */
+    align-items: center;
+  }
+
+  .footer-nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .footer-title {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+}
