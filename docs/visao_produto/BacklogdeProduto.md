@@ -340,22 +340,20 @@ RF10 - Título: Gerar Relatório Referente aos Ganhos e Gastos do evento
 
 RF13 - Título: Atualizar dados dos eventos
 
-RF14 - Título: Cadastro de Funcionário
-
-RF15 - Título: Excluir funcionário
-
-RF17 - Título: Registro de Pagamento de funcionário
-
 RF7 - Título: Cadastro de Evento
 
 RF8 - Titulo: Cadastro de Gastos do evento
 
 RF9 -Título: Cadastro de Ganhos do Evento
 
-RF16 - Título: Atualizar dados dos funcionários
 
 - **Possiveis incrementos**
 
+RF14 - Título: Cadastro de Funcionário
+
+RF15 - Título: Excluir funcionário
+
+RF17 - Título: Registro de Pagamento de funcionário
 
 RF16 - Título: Atualizar dados dos funcionários
 
@@ -372,3 +370,4 @@ RF1 - Titulo: Realizar Login
 | **Data**   | **Versão** | **Descrição**                                                                         | **Autor**                                                                 |
 | ---------- | ---------- | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
 | 16/12/2024 | 1\.0 | Criação do documento | Pedro Gois |s
+| 16/12/2024 | 2\.0 | Atualização do documento | Pedro Gois |s

@@ -2,25 +2,25 @@
 
 **RF01 - Realizar Login:** Permitir o cadastro no sistema.
 
-**RF02 - Cadastro de Produto:** Permitir o cadastro de novos produtos no
+**RF02 - Cadastrar Produto:** Permitir o cadastro de novos produtos no
 sistema.
 
-**RF03 - Pesquisa de Produto:** Permitir a pesquisa de produtos cadastrados.
+**RF03 - Pesquisar Produto:** Permitir a pesquisa de produtos cadastrados.
 
-**RF04 - Exclusão de Produto:** Permitir a exclusão de produtos no estoque.
+**RF04 - Excluir Produto:** Permitir a exclusão de produtos no estoque.
 
-**RF05 - Atualização de Produto:** Permitir a atualização das informações dos
+**RF05 - Atualizar Produto:** Permitir a atualização das informações dos
 produtos.
 
 **RF06 - Ordenar produtos por quantidade:** Permitir a ordenação dos
 produtos com base na quantidade em estoque.
 
-**RF07 - Cadastro de Evento:** Permitir o cadastro de eventos no sistema.
+**RF07 - Cadastrar Evento:** Permitir o cadastro de eventos no sistema.
 
-**RF08 - Cadastro de Gastos do Evento:** Registrar os gastos relacionados a
+**RF08 - Cadastrar Gastos do Evento:** Registrar os gastos relacionados a
 um evento.
 
-**RF09 - Cadastro de Ganhos do Evento:** Registrar os ganhos financeiros
+**RF09 - Cadastrar Ganhos do Evento:** Registrar os ganhos financeiros
 obtidos em um evento.
 
 **RF10 - Gerar Relatório Referente aos Ganhos do Evento:** Gerar relatórios
@@ -37,7 +37,7 @@ realizados.
 **RF14 - Atualizar Dados dos Eventos:** Permitir a atualização das
 informações de eventos cadastrados.
 
-**RF15 - Cadastro de Funcionário:** Permitir o cadastro de novos funcionários
+**RF15 - Cadastrar Funcionário:** Permitir o cadastro de novos funcionários
 no sistema.
 
 **RF16 - Excluir Funcionário:** Permitir a exclusão de registros de funcionários.
@@ -45,7 +45,7 @@ no sistema.
 **RF17 - Atualizar Dados dos Funcionários:** Permitir a atualização das
 informações dos funcionários.
 
-**RF18 - Registro de Pagamento de Funcionário:** Registrar os pagamentos
+**RF18 - Registrar Pagamento de Funcionário:** Registrar os pagamentos
 realizados aos funcionários.
 
 **RF19 - Pesquisar Funcionário:** Permitir a consulta de informações dos

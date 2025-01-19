@@ -19,20 +19,20 @@ Escolhemos os critérios de Definition of Done (DoD) para assegurar que as entre
 
 Nossas definições são:
 
-1-Foram usadas boas praticas no codigo
+1-Foram usadas boas práticas no código,sendo elas legibilidade e padronização de acordo com a linguagem escolhida, e modularidade para facilitar os testes e a programação em pares.
 
-2-Comtempla os criterios de aceitação
+2-Contempla os critérios de aceitação das histórias de usuário.
 
 3-Gera um incremento no produto
 
-4-Se foi devidamente testada 
+4-Se foi devidamente testada, com teste unitário e teste de integração.
 
 *Histórico de Revisão**
 
 | **Data**   | **Versão** | **Descrição**                                                                         | **Autor**                                                                 |
 | ---------- | ---------- | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
 | 16/12/2024 | 1\.0 | Criação do documento | Pedro Gois |
-
+| 16/12/2024 | 2\.0 | Atualização do documento | Pedro Gois |
 
 
 
