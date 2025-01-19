@@ -27,7 +27,7 @@
         <td align="center">
             <a href="https://github.com/Felipe-Brandim">
                 <img style="border-radius: 50%;" src="https://github.com/Felipe-Brandim.png" width="150px;"/>
-                <h5 class="text-center">Fellipe Brandim</h5>
+                <h5 class="text-center">Felipe Brandim</h5>
             </a>
 </table>
 </center>
