@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'DM Sans', sans-serif; /* Aplicando DM Sans a todos os elementos */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 5%; /* Ajuste o padding para que a seção tenha espaço nas bordas */
+  background-color: #f57c00; /* Cor laranja */
+  color: white;
+  width: 100%; /* Garante que o header ocupe toda a largura da tela */
+  position: fixed; /* Fixar o header no topo */
+  top: 0; /* Garantir que fique na parte superior */
+  left: 0;
+  z-index: 1000; /* Para garantir que o header fique acima de outros elementos */
+}
+
+.header-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.header-nav {
+  display: flex;
+  gap: 4rem; /* Ajuste o espaçamento entre os links */
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #ffd54f; /* Cor amarelo claro ao passar o mouse */
+}

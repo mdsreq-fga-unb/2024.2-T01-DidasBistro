@@ -1,0 +1,27 @@
+.main_content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altura total da janela */
+    width: 100%; /* Largura total */
+    margin: 0; /* Remove margens */
+    padding: 0; /* Remove paddings */
+}
+
+.btn {
+    background-color: #f57c00;
+}
+
+.evento-card {
+    background-color: #fd9732;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.evento_container {
+    display: flex;
+    gap: 5;
+    
+}

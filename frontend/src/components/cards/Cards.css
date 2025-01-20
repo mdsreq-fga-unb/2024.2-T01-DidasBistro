@@ -1,0 +1,42 @@
+.cards-section {
+    display: flex;
+    justify-content: space-evenly; /* Distribui os cards uniformemente */
+    align-items: center; /* Centraliza os cards verticalmente */
+    gap: 2rem; /* Ajusta o espaçamento entre os cards */
+    background-color: #fbe9e7; /* Cor bege */
+    height: 100vh; /* Faz a seção ocupar toda a altura da tela */
+    width: 100vw; /* Garante que a seção ocupe toda a largura da tela */
+    margin: 0; /* Remove qualquer margem externa */
+    padding: 0; /* Remove qualquer espaçamento interno */
+    box-sizing: border-box; /* Inclui padding e border no tamanho total */
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f57c00; /* Cor laranja */
+    color: white;
+    width: 20%; /* Reduzido para que os cards fiquem menores */
+    height: 20rem; /* Reduzido para que os cards fiquem menores */
+    border-radius: 3rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-icon {
+    font-size: 10rem;
+    margin-bottom: 1rem;
+  }
+  
+  .card-title {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  

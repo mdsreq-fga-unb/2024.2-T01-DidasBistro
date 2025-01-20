@@ -1,128 +1,32 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #F5E6DC;
+.input-control {
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    color: black;
 }
 
-.container {
+.form-control {
+    background-color: #f57c00;
+    padding: 10px;
+    border-radius: 15px;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    justify-content: center;
+    gap: 10px;
 }
 
-header {
-    background-color: #F08429;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-    color: white;
-}
-
-header .logo {
-    font-size: 1.5rem;
-}
-
-header nav a {
-    margin: 0 1rem;
-    color: white;
-    text-decoration: none;
-}
-
-.sidebar {
-    color: white;
-    background-color: #E7A57A;
-    padding: 1rem;
-    width: 9%;
-    height: calc(100vh - 160px);
-    float: left;
-}
-
-.sidebar h2 {
-    margin-top: auto;
-}
-
-.sidebar input {
-    width: 80%;
-    padding: 0.3rem;
-    margin-top: 1rem;
-}
-
-main {
-    padding: 1rem;
-    flex: bloc;
-    overflow-y: auto;
-}
-
-.buttons {
-    display: block;
-    justify-content: space-between;
-    margin-bottom: 1rem;
-}
-
-.buttons button {
-    background-color: #F08429;
-    color: white;
-    border: none;
-    padding: 0.5rem 1rem;
-    cursor: pointer;
-}
-
-.products {
-    display: block;
-    flex-wrap: wrap;
-    gap: 1rem;
-}
-
-.product {
-    background-color: white;
-    padding: 1rem;
-    border-radius: 8px;
-    width: calc(25% - 1rem);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
-
-.product img {
-    width: 100px;
-    height: 100px;
-    object-fit: contain;
-}
-
-.product p {
-    margin: 0.5rem 0;
-}
-
-.quantity {
+.form-container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.quantity button {
-    background-color: #F08429;
-    color: white;
+.text-area {
+    background-color: white;
+    resize: none;
     border: none;
-    padding: 0.5rem;
-    cursor: pointer;
-}
-
-.quantity span {
-    margin: 0 1rem;
-}
-
-footer {
-    background-color: #F08429;
-    padding: 1rem;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-footer nav a {
-    margin: 0 1rem;
-    color: white;
-    text-decoration: none;
+    border-radius: 10px;
+    height: 100px;
+    color: black;
 }

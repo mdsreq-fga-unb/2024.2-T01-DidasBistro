@@ -1,10 +1,14 @@
 const express = require('express');
 const { connect } = require('mongoose');
 const connectDB = require('./config/db');
+const cors = require('cors')
 
 const app = express();
 
 app.use(express.json());
+app.use(cors({
+  origin: "http://localhost:5173"
+}))
 
 app.use('/', require('./router/router'));
 
