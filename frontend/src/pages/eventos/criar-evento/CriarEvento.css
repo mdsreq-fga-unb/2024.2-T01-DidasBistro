@@ -1,0 +1,32 @@
+.input-control {
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    color: black;
+}
+
+.form-control {
+    background-color: #f57c00;
+    padding: 10px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-area {
+    background-color: white;
+    resize: none;
+    border: none;
+    border-radius: 10px;
+    height: 100px;
+    color: black;
+}
