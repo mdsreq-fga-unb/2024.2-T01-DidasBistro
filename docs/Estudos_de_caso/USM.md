@@ -18,3 +18,5 @@ Aqui estão as personas indentificadas no estudo de caso
 ![coord](../imagens/coordenador.png)
 
 Para visualizar o quadro inteiro no miro [clique aqui](https://miro.com/welcomeonboard/OUtnT1RaV1VIdlAxeGVCeDJnMDhYYy91VUpBYTJDM296dXdJOFRCMVlnNHppSHVQWWFEYXhpTGZrUERnZE1saGJWalFkMGhRNllSV011THhERWNPWktqb2tpajh6N2dUaTNLY1ltU29jK1p5bzZBU29XVWJLdnFaZlQ2QUJnaHIhZQ==?share_link_id=460950000281)
+
+
