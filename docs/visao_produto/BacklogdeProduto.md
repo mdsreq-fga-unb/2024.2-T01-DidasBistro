@@ -74,11 +74,11 @@ Aqui está a fórmula usada para a priorização dos requisitos, com foco em val
 | **US12**          | Pesquisar Eventos Passados                   | 5                    | 2                        | 3                     | 45             |
 | **US13**          | Pesquisar Eventos Futuros                    | 5                    | 3                        | 3                     | 30             |
 | **US14**          | Atualizar Dados dos Eventos                  | 5                    | 2                        | 2                     | 30             |
-| **US15**          | Cadastrar Funcionário                  | 5                    | 2                        | 2                     | 30             |
-| **US16**          | Excluir Funcionário                  | 5                    | 2                        | 2                     | 30             |
-| **US17**          | Atualizar Dados dos Funcionários                 | 5                    | 2                        | 2                     | 30             |
-| **US18**          | Registrar Pagamento de Funcionário                  | 5                    | 2                        | 2                     | 30             |
-| **US19**          | Pesquisar Funcionário                 | 5                    | 2                        | 2                     | 30             |
+| **US15**          | Cadastrar Funcionário                  | 5                    | 1                        | 1                     | 30             |
+| **US16**          | Excluir Funcionário                  | 4                    | 1                        | 1                     | 24             |
+| **US17**          | Atualizar Dados dos Funcionários                 | 5                    | 1                        | 1                     | 30             |
+| **US18**          | Registrar Pagamento de Funcionário                  | 5                    | 2                        | 1                     | 15             |
+| **US19**          | Pesquisar Funcionário                 | 5                    | 2                        | 1                     | 30             |
 
 
 
@@ -108,6 +108,12 @@ Com base na priorização feita e visando entregar maior valor para o cliente no
 | **US04**          | Exclusão de Produto                         |
 | **US06**          | Ordenar Produtos por Quantidade             |
 | **US01**          | Realizar Login                              |
+| **US015**          | Cadastrar Funcionário                             |
+| **US016**          | Excluir Funcionário                             |
+| **US017**          | Atualizar Dados dos Funcionários                            |
+| **US018**          | Registrar Pagamento de Funcionário                            |
+| **US019**          | Pesquisar Funcionário                              |
+
 
 
 **Histórico de Revisão**
