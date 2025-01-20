@@ -8,6 +8,7 @@
     width: 100%; /* Largura total */
     margin: 0; /* Remove margens */
     padding: 0; /* Remove paddings */
+    margin-left: 500px;
 }
 
 .btn {
