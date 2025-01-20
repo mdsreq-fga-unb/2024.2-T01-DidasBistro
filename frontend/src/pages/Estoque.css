@@ -1,141 +1,221 @@
 /* Geral */
-body, html {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    height: 100%;
-    box-sizing: border-box;
-  }
-  
-  /* Layout Principal */
-  .estoque-layout {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-  }
-  
-  header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 60px;
-    background-color: #f4a261;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 1000;
-  }
-  
-  footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 40px;
-    background-color: #264653;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 1000;
-  }
-  
-  /* Conteúdo da Página */
-  .estoque-container {
-    display: flex;
-    flex: 1;
-    margin-top: 60px; /* Espaço para o Header */
-    margin-bottom: 40px; /* Espaço para o Footer */
-    overflow: auto;
-  }
-  
-  /* Sidebar */
-  .sidebar {
-    width: 250px;
-    background-color: #e9c46a;
-    padding: 10px;
-  }
-  
-  .sidebar h2 {
-    margin-top: 0;
-  }
-  
-  .sidebar .search-container {
-    display: flex;
-    gap: 5px;
-    margin-top: 10px;
-  }
-  
-  .sidebar input {
-    flex: 1;
-    padding: 5px;
-    background-color: #fff;
-  }
-  
-  /* Conteúdo Principal */
-  .main-content {
-    flex: 1;
-    padding: 20px;
-    
-  }
-  
-  .button-container {
-    display: flex;
-    flex-direction: column; 
-    align-items: flex-end; 
-    gap: 20px; 
-    margin: 40px; 
-    margin-left: 350px;
-  }
-  
-  .action-button {
-    width: 600px; /* Largura aumentada para o dobro */
-    padding: 20px; /* Aumenta o tamanho vertical */
-    font-size: 20px; /* Tamanho maior da fonte */
-    border: none;
-    border-radius: 8px; /* Cantos arredondados */
-    background-color: #F06D0B; /* Cor de fundo */
-    color: white; /* Cor do texto */
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .action-button:hover {
-    background-color: #e06b45; /* Cor de fundo no hover */
-  }
-  
-  
-  
-  /* Modal */
-  .modal-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 2000;
-  }
-  
-  .modal {
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    width: 400px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
-  }
-  
-  .modal h2 {
-    margin-top: 0;
-  }
-  
-  .modal-buttons {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-  }
-  
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+/* Layout Principal */
+.estoque-layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #f4a261;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  background-color: #264653;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+/* Conteúdo da Página */
+.estoque-container {
+  display: flex;
+  flex: 1;
+  margin-top: 60px;
+  /* Espaço para o Header */
+  margin-bottom: 40px;
+  /* Espaço para o Footer */
+  overflow: auto;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 250px;
+  background-color: #e9c46a;
+  padding: 10px;
+}
+
+.sidebar h2 {
+  margin-top: 0;
+}
+
+.sidebar .search-container {
+  display: flex;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.sidebar input {
+  flex: 1;
+  padding: 5px;
+  background-color: #fff;
+}
+
+/* Conteúdo Principal */
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 20px;
+  margin: 40px;
+  margin-left: 350px;
+}
+
+.action-button {
+  width: 600px;
+  /* Largura aumentada para o dobro */
+  padding: 20px;
+  /* Aumenta o tamanho vertical */
+  font-size: 20px;
+  /* Tamanho maior da fonte */
+  border: none;
+  border-radius: 8px;
+  /* Cantos arredondados */
+  background-color: #F06D0B;
+  /* Cor de fundo */
+  color: white;
+  /* Cor do texto */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.action-button:hover {
+  background-color: #e06b45;
+  /* Cor de fundo no hover */
+}
+
+/* Modal - Alteração do fundo do conteúdo */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  /* Fundo preto com opacidade */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+}
+
+/* Modal - Alteração do fundo e estilo do conteúdo */
+.modal {
+  background-color: #fff;
+  /* Fundo branco para o modal */
+  color: black;
+  /* Texto preto */
+  padding: 20px;
+  border-radius: 10px;
+  width: 40%;
+  /* O modal ocupa 40% da tela */
+  min-width: 350px;
+  /* Garantir uma largura mínima */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}
+
+.modal h2 {
+  margin-top: 0;
+  color: black;
+  /* Título em preto */
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+/* Estilos para os cards de produtos */
+.product-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: flex-start;
+  margin-top: 30px;
+  /* Espaçamento entre o conteúdo e os cards */
+}
+
+.product-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 200px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  /* Ajusta a imagem para não distorcer */
+  border-radius: 8px;
+}
+
+.product-info {
+  margin-top: 10px;
+}
+
+.product-info h3 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+}
+
+.product-info p {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Aumentando o tamanho dos campos do formulário */
+.modal input[type="text"],
+.modal input[type="number"],
+.modal input[type="file"] {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  /* Borda cinza */
+  background-color: #fff;
+  /* Fundo branco */
+  color: black;
+  /* Texto preto */
+}
+
+.modal input[type="file"] {
+  padding: 3px;
+}
