@@ -1,14 +1,18 @@
 # **PBB**
 
 Nessa sessão iremos apresentar o PBB feito a partir do estudo de caso feito em sala, além das histórias de usuario geradas a partir dele,  os critérios para a priorização foram definidos a partir do valor de negócio (importância da funcionalidade) e dificuldade técnica.
+
+aqui estão os problemas e expectativas gerados no PBB
+
+![profcoord](../imagens/problems.png)<br><br>
  
-Aqui estão as personas indentificadas no PBB
+Aqui estão as personas indentificadas no PBB<br>
 
-![profcoord](../imagens/tecnico.png)
+![profcoord](../imagens/tecnico.png)<br><br>
 
-![profcoord](../imagens/cliente1.png)
+![profcoord](../imagens/cliente1.png)<br><br>
 
-![profcoord](../imagens/diretora.png)
+![profcoord](../imagens/diretora.png)<br><br>
 
 Para visualizar o quadro inteiro no miro [clique aqui](https://miro.com/welcomeonboard/bkJ0RkVGcEo3ckYzalRWc3A4bUo1VW8wTWdrTVE5Q2tNVFpMUzRwSmd2QTAvbXh5a0NKRVRsb0wweUhUY3YvSmZwOEgwbnJ2TVNRNVRldlJKVHg1VURhaDhnZlFJc1JUVmhkdzVvRldmWlFBdUpNLzdvWm1wYXczbk45YWNDUWYhZQ==?share_link_id=955382334203)
 
