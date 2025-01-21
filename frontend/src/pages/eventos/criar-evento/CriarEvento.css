@@ -1,0 +1,44 @@
+.input-control {
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    color: black;
+}
+
+.form-control {
+    background-color: #f57c00;
+    padding: 10px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    margin-left: 450px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+    height: 100vh;
+    /* Ocupa toda a altura da janela */
+    width: 100%;
+    /* Ocupa toda a largura */
+    margin: 0;
+    /* Remove margens */
+    padding: 0;
+    /* Remove paddings */
+
+}
+
+.text-area {
+    background-color: white;
+    resize: none;
+    border: none;
+    border-radius: 10px;
+    height: 100px;
+    color: black;
+}

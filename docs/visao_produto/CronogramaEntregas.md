@@ -6,10 +6,10 @@
 | **Sprint 1** | 28/10/24 | 11/11/24 | - Planejamento do projeto |  Definição inicial do escopo | Validação do escopo  |
 | **Sprint 2** | 12/11/24 | 25/11/24 | - Protótipo da interface principal <br> - Criação do ambiente de desenvolvimento  | - Protótipo da tela inicial | Validação do protótipo |
 | **Sprint 3** | 26/11/24 | 09/12/24 | - Fluxos de usuário | - Fluxo das usabilidades de estoque <br> Fluxo das usabilidades de funcionários  | Validação do fluxo
-| **Sprint 4** | 10/12/24 | 23/12/24 | - RF2  <br> - RF12 e RF11| - Sistema de cadastro de produto <br> - Sistema de pesquisa para eventos passados e futuros| Validação do cadrasto de produtos e pesquisa de eventos |
-| **Sprint 5** | 07/01/25 | 20/01/25 | - RF3 <br> - RF5 <br> - RF10<br> - RF13 | - Sistema de pesquisa e atualização do produto <br> - Sistema de geração de relatórios financeiros do evento |Validação da pesquisa e atualização de produtos e do sistema de relatórios |
-| **Sprint 6** | 21/01/25 | 03/02/25 | - RF14 <br> - RF15 <br>- RF17<br>| - Sistema de cadastro de funcionário e exclusão de funcionário <br> - Registro de pagamento de funcionário | Validação do processo de registro e exclusão além do de pagamento de funcionário |
-| **Sprint 7** | 04/02/25 | 17/02/25 | - RF7 <br>- RF8 <br>- RF9 <br>- RF16| - Sistema de cadastro de evento <br> - Sistema de registro de gastos e ganhos do evento <br>- Sistema de atualização de dados de funcionários | Validação das entregas da sprint e do produto final |
+| **Sprint 4** | 10/12/24 | 23/12/24 | - US2  <br> | - Sistema de cadastro de produto <br>  |
+| **Sprint 5** | 07/01/25 | 20/01/25 | - US7 <br>  | - Sistema de cadastro de evento ||
+| **Sprint 6** | 21/01/25 | 03/02/25 | - US12 <br> - US13 <br>- US3<br>- US5<br>- US8<br>| - Sistema de pesquisa de eventos passados e futuros <br> - Sistema de pesquisa e atualização de produto<br>-Sistema de cadastro de gastos do evento| Validação do processo de estoque e de pesquisa de evento|
+| **Sprint 7** | 04/02/25 | 17/02/25 | - US9 <br>- US14 <br>- US11<br>- US10 | - Sistema de ganhos <br> -sistema de geração relatórios financeiros <br>- sistema de atualização de dados dos eventos | Validação das entregas da sprint e do produto final |
 
 
 

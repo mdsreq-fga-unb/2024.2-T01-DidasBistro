@@ -88,7 +88,7 @@ aplicações web.
 
 **Banco de Dados**:
 
-- **MySQL**: Sistema de gerenciamento de banco de dados relacional para
+- **Mongo**: Sistema de gerenciamento de banco de dados para
 armazenar e consultar grandes volumes de dados.
 
 **Design e Prototipação**:
