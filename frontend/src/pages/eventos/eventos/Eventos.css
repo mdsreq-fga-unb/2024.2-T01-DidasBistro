@@ -3,26 +3,54 @@
     flex-direction: column;
     gap: 10px;
     justify-content: center;
-    align-items: center;
-    height: 100vh; /* Altura total da janela */
-    width: 100%; /* Largura total */
-    margin: 0; /* Remove margens */
-    padding: 0; /* Remove paddings */
-    margin-left: 500px;
+    align-items: flex-start;
+    /* Alinha o conteúdo principal à esquerda */
+    height: 100vh;
+    /* Altura total da janela */
+    width: 100%;
+    /* Largura total */
+    margin: 0;
+    /* Remove margens */
+    padding: 0;
+    /* Remove paddings */
 }
 
 .btn {
     background-color: #f57c00;
+    margin-left: 800px;
 }
 
 .evento-card {
     background-color: #fd9732;
-    padding: 10px;
+    padding: 20px;
+    /* Melhorando o espaço interno */
     border-radius: 10px;
+    width: 300px;
+    /* Largura do card */
+    min-height: 150px;
+    /* Altura mínima para caber textos maiores */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* Centraliza verticalmente o conteúdo */
+    text-align: left;
+    /* Alinha o texto à esquerda */
+    overflow-wrap: break-word;
+    /* Quebra de palavras longas */
 }
 
 .evento_container {
     display: flex;
-    gap: 5;
-    
+    flex-wrap: wrap;
+    /* Permite que os cards quebrem para a próxima linha */
+    gap: 20px;
+    /* Espaçamento entre os cards */
+    justify-content: flex-start;
+    /* Alinha os cards ao início do container */
+    align-items: flex-start;
+    /* Garante o alinhamento vertical */
+    margin: 0;
+    /* Remove margens adicionais */
+    padding: 0;
+    /* Remove paddings adicionais */
 }

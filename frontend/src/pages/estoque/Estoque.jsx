@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import Header from "../Componentes/Header";
-import Footer from "../Componentes/Footer";
+import Header from "../../components/header/Header";
+import Footer from "../../components/footer/Footer";
 import "./Estoque.css";
 
 const Estoque = () => {

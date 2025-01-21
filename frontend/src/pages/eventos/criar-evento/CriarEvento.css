@@ -14,13 +14,24 @@
     flex-direction: column;
     justify-content: center;
     gap: 10px;
+    margin-left: 450px;
 }
 
 .form-container {
     display: flex;
     justify-content: center;
+    /* Centraliza horizontalmente */
     align-items: center;
-    margin-left: 750px;
+    /* Centraliza verticalmente */
+    height: 100vh;
+    /* Ocupa toda a altura da janela */
+    width: 100%;
+    /* Ocupa toda a largura */
+    margin: 0;
+    /* Remove margens */
+    padding: 0;
+    /* Remove paddings */
+
 }
 
 .text-area {

@@ -15,9 +15,9 @@ const Eventos = () => {
     const [eventos, setEventos] = useState([]);
 
     useEffect(() => {
-        const get_eventos = async() => {
+        const get_eventos = async () => {
             await axios.get(`${API_URL}/eventos`).then((result) => {
-                setEventos(result.data.eventos)      
+                setEventos(result.data.eventos)
             }).catch((error) => {
                 console.log(error)
             })
@@ -26,30 +26,30 @@ const Eventos = () => {
         get_eventos();
     }, [])
 
-  return (
-    <div>
-        <Header />
-        <div className="main_content">
-            <button onClick={() => navigate('/evento/criar')} className="btn">Cadastrar Evento</button>
+    return (
+        <div>
+            <Header />
+            <div className="main_content">
+                <button onClick={() => navigate('/evento/criar')} className="btn">Cadastrar Evento</button>
 
-            <div className="evento_container">
-                {eventos.map((evento, index) => {
-                    const date = new Date(evento.data);
-                    return(
-                        <div className="evento-card">
-                            <h1>{evento.nome}</h1>
-                            <p>{evento.descricao}</p>
-                            <p><strong>Local:</strong> {evento.local}</p>
-                            <p>Quantidade de pessoas: {evento.qtd_pessoas}</p>
-                            <p>Data: {evento.data}</p>
-                        </div>
-                    )
-                })}
+                <div className="evento_container">
+                    {eventos.map((evento, index) => {
+                        const date = new Date(evento.data);
+                        return (
+                            <div className="evento-card">
+                                <h1>{evento.nome}</h1>
+                                <p>{evento.descricao}</p>
+                                <p><strong>Local:</strong> {evento.local}</p>
+                                <p>Quantidade de pessoas: {evento.qtd_pessoas}</p>
+                                {/*<p>Data: {evento.data}</p>*/}
+                            </div>
+                        )
+                    })}
+                </div>
             </div>
+            <Footer />
         </div>
-        <Footer />
-    </div>
-  )
+    )
 }
 
 export default Eventos

@@ -23,7 +23,7 @@ const EventoSchema = new Schema({
         type: Date,
         required: true
     },
-    hora:{
+    hora: {
         type: String,
         required: true
     },
