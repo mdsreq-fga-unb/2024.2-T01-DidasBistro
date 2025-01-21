@@ -15,6 +15,16 @@ Outro ponto positivo foi a melhoria significativa na nossa dinâmica de grupo. A
 
 No entanto, identificamos que um dos principais tópicos para melhoria continua sendo a pontualidade. A entrega dentro dos prazos estabelecidos é essencial para o sucesso do projeto, e ainda precisamos trabalhar para garantir que as tarefas sejam concluídas no tempo certo.
 
+### 10.3 **Unidade 3**
+
+Esta unidade foi particularmente desafiadora para o nosso grupo, pois enfrentamos a saída de dois integrantes importantes, o que exigiu uma adaptação rápida e constante durante o andamento do projeto. A perda desses membros trouxe uma sobrecarga de responsabilidades para os que permaneceram, mas também nos forçou a desenvolver habilidades de adaptação e resiliência.
+
+Tivemos que reorganizar o trabalho de maneira quase imediata, redistribuindo as tarefas e ajustando o cronograma para compensar a ausência dos colegas. Essa mudança inesperada, embora difícil, nos ensinou a ser mais flexíveis e a trabalhar sob pressão. Aprendemos a priorizar tarefas de forma mais eficiente, a comunicar-nos de maneira mais clara e a ser mais colaborativos para garantir que o projeto seguisse em frente, apesar das dificuldades.
+
+Além disso, essa experiência nos proporcionou uma reflexão importante sobre a importância da comunicação e do alinhamento entre os membros da equipe. Com a saída de dois integrantes, foi necessário intensificar a troca de informações e garantir que todos estivessem cientes das alterações e das novas responsabilidades.
+
+Apesar das adversidades, conseguimos manter o projeto em andamento, e a superação desses desafios foi um aprendizado significativo para todos nós. No entanto, ainda reconhecemos que há áreas a serem aprimoradas, como a adaptação a mudanças repentinas e o fortalecimento da coesão do grupo em situações inesperadas.
+
 
 
 
@@ -27,3 +37,4 @@ No entanto, identificamos que um dos principais tópicos para melhoria continua 
 | 11/11/2024 | 0\.1 | Atualização do Documento | Pedro Henrique |
 | 11/11/2024 | 1\.0 | Primeira versão do documento | Benjamim Lacerda Santos, Iderlan Junio Cardoso da Silva, Mateus Henrique Queiroz Magalhães Sousa, Pedro Gois Marques Monteiro, Pedro Henrique |
 | 16/12/2024 | 2\.0 | Segunda versão do documento | Benjamim Lacerda Santos, Iderlan Junio Cardoso da Silva, Mateus Henrique Queiroz Magalhães Sousa, Pedro Gois Marques Monteiro, Pedro Henrique |
+| 16/12/2024 | 3\.0 | Terceira versão do documento | Benjamim Lacerda Santos, Iderlan Junio Cardoso da Silva, Mateus Henrique Queiroz Magalhães Sousa, Pedro Gois Marques Monteiro, Pedro Henrique |
