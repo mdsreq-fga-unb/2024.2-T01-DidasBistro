@@ -29,7 +29,7 @@ body {
 .header-title {
   font-size: 2.5rem;
   font-weight: bold;
-  margin: 0;
+  margin-left: -800px;
 }
 
 .header-nav {
@@ -47,4 +47,9 @@ body {
 
 .nav-link:hover {
   color: #ffd54f; /* Cor amarelo claro ao passar o mouse */
+}
+
+.logo {
+  width: 75px; /* ajuste conforme necessário */
+  height: auto;
 }
