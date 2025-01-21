@@ -1,9 +1,9 @@
-name: DidasBistro-api
+name: didasbistro-api
 
-services: 
+services:
   api:
-    container_name: DidasBistro-api
-    build: 
+    container_name: didasbistro-api
+    build:
       context: .
       dockerfile: Dockerfile
     volumes:
@@ -13,7 +13,7 @@ services:
       - "3000:3000"
     command: npm run dev
   mongo:
-    container_name: DidasBistro-db
+    container_name: didasbistro-db
     image: mongo
     ports:
       - "27017:27017"
