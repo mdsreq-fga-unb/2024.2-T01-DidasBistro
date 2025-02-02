@@ -108,7 +108,7 @@ const Estoque = () => {
 
       <div className="estoque-container">
         <aside className="sidebar">
-          <h2>PRODUTOS</h2>
+          <h2 className="titulo_search">PRODUTOS</h2>
           <div className="search-container">
             <input
               type="text"
@@ -116,7 +116,6 @@ const Estoque = () => {
               onChange={(e) => setSearchTerm(e.target.value)}
               placeholder="Pesquisar por nome..."
             />
-            <button>🔍</button>
           </div>
         </aside>
 
