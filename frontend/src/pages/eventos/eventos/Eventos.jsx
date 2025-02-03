@@ -38,7 +38,12 @@ const Eventos = () => {
 
         <div className="evento-container">
           {eventos.map((evento, index) => (
-            <div key={index} className="evento-card">
+            <div
+              role="button"
+              onClick={() => navigate(`/balance/${evento._id}`)}
+              key={index}
+              className="evento-card"
+            >
               <h1>{evento.nome}</h1>
               <p>{evento.descricao}</p>
               <p>
