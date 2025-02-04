@@ -1,0 +1,100 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Garante que ocupe toda a altura da tela */
+  margin: 0;
+  background-color: #c06727; /* Opcional: cor de fundo para melhor visualização */
+}
+
+.balanco-container {
+  max-width: 600px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.balanco-container h1 {
+  text-align: center;
+  color: #333;
+}
+
+.balanco-container h2 {
+  margin-bottom: 10px;
+  color: #444;
+  text-align: center;
+}
+
+.balanco-container h3 {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+.saldo {
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.saldo-positivo {
+  color: #2d8f4e;
+}
+
+.saldo-negativo {
+  color: #d9534f;
+}
+
+.acoes-lista {
+  list-style: none;
+  padding: 0;
+}
+
+.acoes-lista li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.entrada {
+  background-color: #e7f7e7;
+  color: #2d8f4e;
+}
+
+.saida {
+  background-color: #fde8e8;
+  color: #d9534f;
+}
+
+.form-acao {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.form-acao select,
+.form-acao input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.form-acao button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.form-acao button:hover {
+  background-color: #0056b3;
+}

@@ -1,59 +1,73 @@
 .main_content {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    justify-content: center;
-    align-items: flex-start;
-    height: 100vh;
-    width: 100%;
-    margin: 0;
-    padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center; /* Alinha ao centro */
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 20px;
 }
 
 .button-search-container {
-    display: flex;
-    align-items: center;
-    gap: 30px; 
-    justify-content: flex-start;
-}
-
-.btn {
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 20px;
 }
 
 .search-container {
-    display: flex;
-    justify-content: center;
+  flex-grow: 1;
+  margin-right: 10px;
 }
 
 .search-input {
-    padding: 10px;
-    font-size: 16px;
-    width: 250px; 
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.btn {
+  background-color: #f57c00;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 1rem;
+}
+
+.btn:hover {
+  background-color: #e06900;
+}
+
+.evento-container {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto; /* Adiciona rolagem horizontal */
+  padding: 10px;
+  width: 90vw; /* Mantém os eventos dentro da tela */
+  white-space: nowrap;
+  scrollbar-width: thin; /* Esconde scrollbar no Firefox */
 }
 
 .evento-card {
-    background-color: #fd9732;
-    padding: 20px;
-    border-radius: 10px;
-    width: 300px;
-    min-height: 150px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: left;
-    overflow-wrap: break-word;
+  background-color: #fd9732;
+  padding: 20px;
+  border-radius: 10px;
+  min-width: 250px; /* Define um tamanho mínimo */
+  max-width: 90%; /* Permite adaptação ao texto */
+  min-height: 100px; /* Evita que fiquem muito pequenos */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  word-wrap: break-word; /* Garante que palavras longas quebrem corretamente */
+  flex-shrink: 0;
 }
-
-.evento_container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin: 0;
-    padding: 0;
-}
-
