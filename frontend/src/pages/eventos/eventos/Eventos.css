@@ -10,6 +10,27 @@
   padding: 20px;
 }
 
+.button-search-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 20px;
+}
+
+.search-container {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
 .btn {
   background-color: #f57c00;
   padding: 10px 20px;
@@ -19,6 +40,7 @@
   font-weight: bold;
   cursor: pointer;
   transition: 0.3s;
+  font-size: 1rem;
 }
 
 .btn:hover {
