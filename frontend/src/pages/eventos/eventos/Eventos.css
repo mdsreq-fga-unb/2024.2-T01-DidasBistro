@@ -10,6 +10,27 @@
   padding: 20px;
 }
 
+/* Contêiner para barra de pesquisa e botão */
+.button-search-container {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 15px;
+}
+
+/* Barra de pesquisa */
+.search-input {
+  padding: 8px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  width: 100%;
+  max-width: 300px;
+}
+
 .btn {
   background-color: #f57c00;
   padding: 10px 20px;
