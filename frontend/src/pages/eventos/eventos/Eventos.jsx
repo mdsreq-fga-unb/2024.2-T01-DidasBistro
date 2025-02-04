@@ -14,20 +14,18 @@ const Eventos = () => {
 
   useEffect(() => {
     const get_eventos = async () => {
-      await axios
-        .get(`${API_URL}/eventos`)
-        .then((result) => {
-          setEventos(result.data.eventos);
-        })
-        .catch((error) => {
-          console.log(error);
-        });
+      try {
+        const result = await axios.get(`${API_URL}/eventos`);
+        setEventos(result.data.eventos);
+      } catch (error) {
+        console.log(error);
+      }
     };
 
     get_eventos();
   }, []);
 
-  // Filtrando eventos com base no termo de pesquisa
+  // Filtragem de eventos baseada no termo de pesquisa
   const filteredEventos = eventos.filter((evento) =>
     [
       evento.nome,
@@ -47,22 +45,21 @@ const Eventos = () => {
       <div className="main_content">
         <div className="button-search-container">
           {/* Barra de pesquisa */}
-          <div className="search-container">
-            <input
-              type="text"
-              placeholder="Pesquisar evento..."
-              value={searchTerm}
-              onChange={(e) => setSearchTerm(e.target.value)}
-              className="search-input"
-            />
-          </div>
+          <input
+            type="text"
+            placeholder="Pesquisar evento..."
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+            className="search-input"
+          />
 
+          {/* Botão de cadastro */}
           <button onClick={() => navigate("/evento/criar")} className="btn">
             Cadastrar Evento
           </button>
         </div>
 
-        <div className="evento-pesquisa">
+        <div className="evento-container">
           {filteredEventos.length === 0 ? (
             <p>Nenhum evento encontrado.</p>
           ) : (

@@ -10,25 +10,25 @@
   padding: 20px;
 }
 
+/* Contêiner para barra de pesquisa e botão */
 .button-search-container {
   display: flex;
-  justify-content: space-between;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  max-width: 800px;
-  margin-bottom: 20px;
+  max-width: 600px;
+  margin-bottom: 15px;
 }
 
-.search-container {
-  flex-grow: 1;
-  margin-right: 10px;
-}
-
+/* Barra de pesquisa */
 .search-input {
+  padding: 8px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
   width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  font-size: 1rem;
+  max-width: 300px;
 }
 
 .btn {
