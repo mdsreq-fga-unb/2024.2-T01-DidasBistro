@@ -76,7 +76,7 @@ const Eventos = () => {
                   <strong>Local:</strong> {evento.local}
                 </p>
                 <p>Quantidade de pessoas: {evento.qtd_pessoas}</p>
-                <p>Data: {evento.data}</p>
+                <p>Data: {new Date(evento.data).toLocaleDateString("pt-br")}</p>
                 <p>Hora: {evento.hora}</p>
               </div>
             ))
