@@ -75,7 +75,7 @@ const Estoque = () => {
   const openModal = (type, product = null) => {
     setModalType(type);
     setIsModalOpen(true);
-    
+
     if (type === "edit" && product) {
       setEditingProductId(product._id);
       setProductName(product.nome);
@@ -121,7 +121,9 @@ const Estoque = () => {
 
         <main className="main-content">
           <div className="button-container">
-            <button className="action-button" onClick={() => openModal("add")}>Adicionar produtos ao estoque</button>
+            <button className="action-button" onClick={() => openModal("add")}>
+              Adicionar produtos ao estoque
+            </button>
           </div>
 
           <div className="product-cards">
@@ -132,10 +134,15 @@ const Estoque = () => {
                   <div className="product-info">
                     <h3>{product.nome}</h3>
                     <p>Quantidade: {product.quantidade}</p>
-                    <p>Preço: R$ {product.preco.toFixed(2)}</p>
+                    <p>Preço Unitário: R$ {product.preco.toFixed(2)}</p>
+                    <p>Valor Total: R$ {(product.preco * product.quantidade).toFixed(2)}</p>
                     <p>{product.descricao}</p>
-                    <button className="edit-button" onClick={() => openModal("edit", product)}>Editar</button>
-                    <button className="delete-button" onClick={() => deleteProduct(product._id)}>Excluir</button>
+                    <button className="edit-button" onClick={() => openModal("edit", product)}>
+                      Editar
+                    </button>
+                    <button className="delete-button" onClick={() => deleteProduct(product._id)}>
+                      Excluir
+                    </button>
                   </div>
                 </div>
               ))
@@ -151,24 +158,31 @@ const Estoque = () => {
           <div className="modal">
             <h2>{modalType === "edit" ? "Editar Produto" : "Adicionar Produto"}</h2>
             <form onSubmit={addOrUpdateProduct}>
-              <label>Nome do Produto:
+              <label>
+                Nome do Produto:
                 <input type="text" value={productName} onChange={(e) => setProductName(e.target.value)} />
               </label>
-              <label>Quantidade:
+              <label>
+                Quantidade:
                 <input type="number" value={productQuantity} onChange={(e) => setProductQuantity(e.target.value)} />
               </label>
-              <label>Preço:
+              <label>
+                Preço:
                 <input type="number" step="0.01" value={productPrice} onChange={(e) => setProductPrice(e.target.value)} />
               </label>
-              <label>Descrição:
+              <label>
+                Descrição:
                 <textarea value={productDescription} onChange={(e) => setProductDescription(e.target.value)} />
               </label>
-              <label>URL da Imagem:
+              <label>
+                URL da Imagem:
                 <input type="text" value={productImageUrl} onChange={(e) => setProductImageUrl(e.target.value)} />
               </label>
               <div className="modal-buttons">
                 <button type="submit">Confirmar</button>
-                <button type="button" onClick={closeModal}>Cancelar</button>
+                <button type="button" onClick={closeModal}>
+                  Cancelar
+                </button>
               </div>
             </form>
           </div>
