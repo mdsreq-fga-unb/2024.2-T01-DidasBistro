@@ -17,7 +17,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 5%; /* Ajuste o padding para que a seção tenha espaço nas bordas */
-  background-color: #f57c00; /* Cor laranja */
+  background-color: #000000; /* Cor laranja */
   color: white;
   width: 100%; /* Garante que o header ocupe toda a largura da tela */
   position: fixed; /* Fixar o header no topo */

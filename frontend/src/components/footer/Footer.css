@@ -1,6 +1,6 @@
 /* Estilo principal do footer */
 .footer {
-    background-color: #ff7f00;  /* Cor de fundo laranja */
+    background-color: #000000;  /* Cor de fundo laranja */
     color: white;
     display: flex;
     justify-content: space-between;  /* Distribui os itens de forma espaçada */

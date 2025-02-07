@@ -8,6 +8,7 @@ import Estoque from "./pages/estoque/Estoque";
 import Home from "./pages/home/Home";
 import Eventos from "./pages/eventos/eventos/Eventos";
 import Balance from "./pages/balance/balance";
+import EditarEvento from "./pages/eventos/EditarEvento/EditarEvento";
 function App() {
   const [count, setCount] = useState(0);
 
@@ -19,6 +20,7 @@ function App() {
         <Route path="/estoque" element={<Estoque />} />
         <Route path="/balance/:id" element={<Balance />} />
         <Route path="/" element={<Home />} />
+        <Route path="/evento/editar/:id" element={<EditarEvento/>} />
       </Routes>
     </BrowserRouter>
   );

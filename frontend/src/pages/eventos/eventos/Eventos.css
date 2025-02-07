@@ -3,14 +3,14 @@
   flex-direction: column;
   gap: 10px;
   justify-content: center;
-  align-items: center; /* Alinha ao centro */
+  align-items: center; 
   height: 100vh;
   width: 100%;
   margin: 0;
   padding: 20px;
 }
 
-/* Contêiner para barra de pesquisa e botão */
+
 .button-search-container {
   display: flex;
   gap: 15px;
@@ -21,8 +21,9 @@
   margin-bottom: 15px;
 }
 
-/* Barra de pesquisa */
+
 .search-input {
+
   padding: 8px;
   border: 2px solid #ddd;
   border-radius: 8px;
@@ -30,6 +31,7 @@
   width: 100%;
   max-width: 300px;
 }
+
 
 .btn {
   background-color: #f57c00;
@@ -39,35 +41,87 @@
   color: white;
   font-weight: bold;
   cursor: pointer;
-  transition: 0.3s;
+  transition: transform 0.3s, background-color 0.3s;
   font-size: 1rem;
 }
 
 .btn:hover {
-  background-color: #e06900;
+  background-color: #000000;
+  transform: scale(1.05);
 }
 
+
 .evento-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(250px, 1fr));
   gap: 20px;
-  overflow-x: auto; /* Adiciona rolagem horizontal */
-  padding: 10px;
-  width: 90vw; /* Mantém os eventos dentro da tela */
-  white-space: nowrap;
-  scrollbar-width: thin; /* Esconde scrollbar no Firefox */
+  padding: 20px;
+  width: 100%;
 }
+
+.evento-card {
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+  max-width: 100%; /* Limita a largura */
+  overflow: hidden; /* Oculta o conteúdo excedente */
+  word-wrap: break-word; /* Quebra palavras muito longas */
+}
+
+
+.evento-scroll-container {
+  overflow-y: auto;
+  padding: 10px;
+  white-space: nowrap;
+  scrollbar-width: thin;
+  max-height: 40em;
+}
+
+.evento-card:hover {
+  transform: scale(1.05);
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 1024px) {
+  .evento-container {
+    grid-template-columns: repeat(2, minmax(250px, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .evento-container {
+    grid-template-columns: repeat(1, minmax(250px, 1fr));
+  }
+}
+
+
 
 .evento-card {
   background-color: #fd9732;
   padding: 20px;
   border-radius: 10px;
-  min-width: 250px; /* Define um tamanho mínimo */
-  max-width: 90%; /* Permite adaptação ao texto */
-  min-height: 100px; /* Evita que fiquem muito pequenos */
+  min-width: 250px;
+  max-width: 90%;
+  min-height: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: left;
-  word-wrap: break-word; /* Garante que palavras longas quebrem corretamente */
+  word-wrap: break-word;
   flex-shrink: 0;
+  transition: transform 0.3s ease;
+}
+
+.evento-card:hover {
+  transform: translateY(-5px);
+}
+
+.evento-card-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
 }

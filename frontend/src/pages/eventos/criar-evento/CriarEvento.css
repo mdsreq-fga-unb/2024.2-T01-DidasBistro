@@ -17,23 +17,6 @@
     margin-left: 450px;
 }
 
-.form-container {
-    display: flex;
-    justify-content: center;
-    /* Centraliza horizontalmente */
-    align-items: center;
-    /* Centraliza verticalmente */
-    height: 100vh;
-    /* Ocupa toda a altura da janela */
-    width: 100%;
-    /* Ocupa toda a largura */
-    margin: 0;
-    /* Remove margens */
-    padding: 0;
-    /* Remove paddings */
-
-}
-
 .text-area {
     background-color: white;
     resize: none;
@@ -42,3 +25,71 @@
     height: 100px;
     color: black;
 }
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    background-color: #f4f7fc; /* Fundo suave */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .form-content {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 400px; /* Largura do formulário */
+    text-align: center;
+  }
+  
+  h2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .form-field {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  label {
+    font-size: 14px;
+    color: #555;
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .input-control, .text-area {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .text-area {
+    resize: vertical;
+    height: 100px;
+  }
+  
+  .btn {
+    width: 100%;
+    padding: 12px;
+    /* background-color: #4CAF50; Cor verde */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /*.btn:hover:hover {
+    background-color: #45a049;
+  }*/
+  

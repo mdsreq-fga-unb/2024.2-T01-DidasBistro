@@ -15,14 +15,14 @@ const Header = () => {
           />
         </Link>
       </div>
-      <h1 className="header-title"><strong>Didas </strong>Bistro</h1>
+      <h1 className="header-title"><strong>Dida's </strong>Bistro</h1>
       <nav className="header-nav">
         <a className="nav-link" href="/estoque">
           Estoque
         </a>
         <Link to={"/evento"} className="nav-link" >
           Eventos
-        </Link>
+       </Link>
         <a className="nav-link" href="/funcionarios">
           Funcionarios
         </a>
