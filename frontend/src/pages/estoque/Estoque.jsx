@@ -4,13 +4,13 @@ import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import "./Estoque.css";
 
+
 const API_URL = "http://localhost:3000/api/produtos";
 
 const Estoque = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [modalType, setModalType] = useState(""); // "add" ou "edit"
   const [editingProductId, setEditingProductId] = useState(null);
-  const [productImageUrl, setProductImageUrl] = useState("");
   const [productName, setProductName] = useState("");
   const [productQuantity, setProductQuantity] = useState("");
   const [productPrice, setProductPrice] = useState("");
@@ -21,6 +21,8 @@ const Estoque = () => {
   useEffect(() => {
     fetchProducts();
   }, [searchTerm]);
+
+  
 
   const fetchProducts = async () => {
     try {
@@ -35,7 +37,7 @@ const Estoque = () => {
 
   const addOrUpdateProduct = async (e) => {
     e.preventDefault();
-    if (!productName || !productQuantity || !productPrice || !productDescription || !productImageUrl) {
+    if (!productName || !productQuantity || !productPrice || !productDescription) {
       alert("Por favor, preencha todos os campos!");
       return;
     }
@@ -46,7 +48,6 @@ const Estoque = () => {
         quantidade: Number(productQuantity),
         preco: Number(productPrice),
         descricao: productDescription,
-        imagem: productImageUrl,
       };
 
       if (modalType === "edit" && editingProductId) {
@@ -82,7 +83,6 @@ const Estoque = () => {
       setProductQuantity(product.quantidade);
       setProductPrice(product.preco);
       setProductDescription(product.descricao);
-      setProductImageUrl(product.imagem);
     } else {
       resetForm();
     }
@@ -99,7 +99,6 @@ const Estoque = () => {
     setProductQuantity("");
     setProductPrice("");
     setProductDescription("");
-    setProductImageUrl("");
   };
 
   return (
@@ -130,7 +129,6 @@ const Estoque = () => {
             {products.length > 0 ? (
               products.map((product) => (
                 <div key={product._id} className="product-card">
-                  {product.imagem && <img src={product.imagem} alt={product.nome} />}
                   <div className="product-info">
                     <h3>{product.nome}</h3>
                     <p>Quantidade: {product.quantidade}</p>
@@ -173,10 +171,6 @@ const Estoque = () => {
               <label>
                 Descrição:
                 <textarea value={productDescription} onChange={(e) => setProductDescription(e.target.value)} />
-              </label>
-              <label>
-                URL da Imagem:
-                <input type="text" value={productImageUrl} onChange={(e) => setProductImageUrl(e.target.value)} />
               </label>
               <div className="modal-buttons">
                 <button type="submit">Confirmar</button>

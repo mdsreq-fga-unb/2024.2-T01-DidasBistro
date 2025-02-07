@@ -221,3 +221,16 @@ footer {
 .modal input[type="file"] {
   padding: 3px;
 }
+
+.modal textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: black;
+  resize: none; /* Para manter o tamanho fixo */
+  height: 100px; /* Ajuste a altura conforme necessário */
+}
