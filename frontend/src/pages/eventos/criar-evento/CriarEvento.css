@@ -1,44 +1,122 @@
-.input-control {
-    background-color: white;
-    padding: 5px;
-    border-radius: 10px;
-    border: none;
-    color: black;
-}
-
-.form-control {
-    background-color: #f57c00;
-    padding: 10px;
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 10px;
-    margin-left: 450px;
-}
-
+/* Container geral */
 .form-container {
-    display: flex;
-    justify-content: center;
-    /* Centraliza horizontalmente */
-    align-items: center;
-    /* Centraliza verticalmente */
-    height: 100vh;
-    /* Ocupa toda a altura da janela */
-    width: 100%;
-    /* Ocupa toda a largura */
-    margin: 0;
-    /* Remove margens */
-    padding: 0;
-    /* Remove paddings */
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #f4f7fc;
+  margin: 0;
+  padding: 0;
+  transition: all 0.3s ease-in-out;  
 }
 
-.text-area {
-    background-color: white;
-    resize: none;
-    border: none;
-    border-radius: 10px;
-    height: 100px;
-    color: black;
+/* Container do formulário */
+.form-content {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 600px;
+  max-width: 90%;
+  text-align: center;
+  transform: translateY(10px);  
+  opacity: 0;
+  animation: slideUp 0.5s ease-out forwards; /
 }
+
+/* Animação de entrada suave */
+@keyframes slideUp {
+  to {
+      transform: translateY(0);
+      opacity: 1;
+  }
+}
+
+/* Título */
+h2 {
+  font-family: 'Arial', sans-serif;
+  font-size: 24px;
+  margin-bottom: 20px;
+  transition: color 0.3s ease;  
+}
+
+/* Campos do formulário */
+.form-field {
+  margin-bottom: 20px;
+  text-align: left;
+  transition: all 0.3s ease;  
+}
+
+/* Labels */
+label {
+  font-size: 14px;
+  color: #555;
+  display: block;
+  margin-bottom: 8px;
+}
+
+/* Campos de entrada e área de texto */
+.input-control, .text-area {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  transition: border 0.3s ease, box-shadow 0.3s ease; 
+}
+
+/* Efeito de foco nos campos */
+.input-control:focus, .text-area:focus {
+  border-color: #f57c00;
+  box-shadow: 0 0 5px rgba(245, 124, 0, 0.7);
+}
+
+/* Efeito de hover nos campos de texto */
+.input-control:hover, .text-area:hover {
+  border-color: #f57c00;
+}
+
+/* Botão principal */
+.btn {
+  width: 200px;
+  padding: 12px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: transform 0.3s ease, background-color 0.3s ease;  
+}
+
+
+.btn:hover {
+  transform: scale(1.05);  
+  background-color: black; 
+}
+
+/* Botão de voltar */
+.voltar-btn {
+  background-color: #f57c00;
+  margin-top: 8px;
+  padding: 8px;
+  font-size: 14px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+
+.voltar-btn:hover {
+  transform: scale(1.05);
+  background-color: #e65c00;
+}
+
+.btn + .voltar-btn {
+  margin-left: 8px;
+}
+
+
+  

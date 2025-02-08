@@ -67,3 +67,26 @@
       background-color: #f9f9f9;
     }
   }
+
+  input {
+    
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    width: 100%;
+    background-color: white;
+    color: black;
+  }
+
+  textarea {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    width: 100%;
+    background-color: white;
+    color: black;
+  }
