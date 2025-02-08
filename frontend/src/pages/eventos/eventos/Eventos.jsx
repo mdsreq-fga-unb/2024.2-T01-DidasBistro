@@ -19,7 +19,8 @@ const Eventos = () => {
     const get_eventos = async () => {
       try {
         const result = await axios.get(`${API_URL}/eventos`);
-        setEventos(result.data.eventos);
+        const sortedEventos = result.data.eventos.sort((a, b) => new Date(b.data) - new Date(a.data)); // Ordena eventos pela data (mais recente primeiro)
+        setEventos(sortedEventos);
       } catch (error) {
         console.log(error);
       }
@@ -42,7 +43,7 @@ const Eventos = () => {
       .some((field) => field.toLowerCase().includes(searchTerm.toLowerCase()))
   );
 
-  
+
   const handleNavigateWithTransition = (path) => {
     setTargetPath(path);
     setIsTransitioning(true);
@@ -66,7 +67,6 @@ const Eventos = () => {
         onAnimationComplete={handleAnimationComplete}
       >
         <div className="button-search-container">
-          
           <input
             type="text"
             placeholder="Pesquisar evento..."
@@ -74,8 +74,6 @@ const Eventos = () => {
             onChange={(e) => setSearchTerm(e.target.value)}
             className="search-input"
           />
-
-         
           <button
             onClick={() => handleNavigateWithTransition("/evento/criar")}
             className="btn"
@@ -90,17 +88,10 @@ const Eventos = () => {
               <p>Nenhum evento encontrado.</p>
             ) : (
               filteredEventos.map((evento, index) => (
-                <div
-                  key={index}
-                  className="evento-card"
-
-
-                >
+                <div key={index} className="evento-card">
                   <h1>{evento.nome}</h1>
-                  <p>Descrição: {evento.descricao}</p>
-                  <p>
-                    <strong>Local:</strong> {evento.local}
-                  </p>
+                  <p className="descricao"> Descrição: {evento.descricao.length > 26 ? evento.descricao.slice(0, 26) + "..." : evento.descricao}</p>
+                  <p className="local"> Local: {evento.local}</p>
                   <p>Quantidade de pessoas: {evento.qtd_pessoas}</p>
                   <p>Data: {new Date(evento.data).toLocaleDateString("pt-br")}</p>
                   <p>Hora: {evento.hora}</p>
@@ -126,15 +117,15 @@ const Eventos = () => {
                     </button>
                   </div>
                 </div>
-
               ))
             )}
           </div>
         </div>
-
       </motion.div>
       <Footer />
     </div>
+
+
   );
 };
 

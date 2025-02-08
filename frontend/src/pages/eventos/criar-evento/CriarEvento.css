@@ -8,7 +8,7 @@
   background-color: #f4f7fc;
   margin: 0;
   padding: 0;
-  transition: all 0.3s ease-in-out;  /* Suaviza a transição para mudanças gerais */
+  transition: all 0.3s ease-in-out;  
 }
 
 /* Container do formulário */
@@ -20,9 +20,9 @@
   width: 600px;
   max-width: 90%;
   text-align: center;
-  transform: translateY(10px);  /* Inicialmente um pouco abaixo */
+  transform: translateY(10px);  
   opacity: 0;
-  animation: slideUp 0.5s ease-out forwards;  /* Animação para suavizar a entrada */
+  animation: slideUp 0.5s ease-out forwards; /
 }
 
 /* Animação de entrada suave */
@@ -38,14 +38,14 @@ h2 {
   font-family: 'Arial', sans-serif;
   font-size: 24px;
   margin-bottom: 20px;
-  transition: color 0.3s ease;  /* Transição suave na cor do título */
+  transition: color 0.3s ease;  
 }
 
 /* Campos do formulário */
 .form-field {
   margin-bottom: 20px;
   text-align: left;
-  transition: all 0.3s ease;  /* Transição para suavizar margens e posições */
+  transition: all 0.3s ease;  
 }
 
 /* Labels */
@@ -64,7 +64,7 @@ label {
   border: 1px solid #ddd;
   border-radius: 4px;
   margin-bottom: 10px;
-  transition: border 0.3s ease, box-shadow 0.3s ease;  /* Transições de borda e sombra */
+  transition: border 0.3s ease, box-shadow 0.3s ease; 
 }
 
 /* Efeito de foco nos campos */
@@ -80,21 +80,20 @@ label {
 
 /* Botão principal */
 .btn {
-  width: 100%;
+  width: 200px;
   padding: 12px;
   color: white;
   border: none;
   border-radius: 4px;
   cursor: pointer;
   font-size: 16px;
-  background-color: #4CAF50; /* Verde padrão */
-  transition: transform 0.3s ease, background-color 0.3s ease;  /* Efeito de animação */
+  transition: transform 0.3s ease, background-color 0.3s ease;  
 }
 
-/* Efeito de hover no botão */
+
 .btn:hover {
-  transform: scale(1.05);  /* Leve aumento no tamanho */
-  background-color: #45a049;  /* Cor um pouco mais escura */
+  transform: scale(1.05);  
+  background-color: black; 
 }
 
 /* Botão de voltar */
@@ -103,16 +102,21 @@ label {
   margin-top: 8px;
   padding: 8px;
   font-size: 14px;
-  width: auto;
+  width: 200px;
   margin-left: auto;
   margin-right: auto;
   transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
-/* Efeito de hover no botão de voltar */
+
 .voltar-btn:hover {
   transform: scale(1.05);
   background-color: #e65c00;
 }
+
+.btn + .voltar-btn {
+  margin-left: 8px;
+}
+
 
   
