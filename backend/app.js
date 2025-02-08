@@ -10,7 +10,7 @@ app.use(cors({
   origin: "http://localhost:5173"
 }))
 
-app.use('/', require('./router/router'));
+app.use('/api', require('./router/router'));
 
 const port = 3000;
 

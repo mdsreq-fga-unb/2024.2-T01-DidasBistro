@@ -1,99 +1,146 @@
 import React, { useState, useEffect } from "react";
+import axios from "axios";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import "./Estoque.css";
 
+
+const API_URL = "http://localhost:3000/api/produtos";
+
 const Estoque = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [modalType, setModalType] = useState(""); // "add" ou "remove"
-  const [productImage, setProductImage] = useState(null); // Estado para armazenar a imagem do produto
-  const [productName, setProductName] = useState(""); // Nome do produto
-  const [productQuantity, setProductQuantity] = useState(""); // Quantidade do produto
-  const [products, setProducts] = useState([]); // Lista de produtos
+  const [modalType, setModalType] = useState(""); // "add" ou "edit"
+  const [editingProductId, setEditingProductId] = useState(null);
+  const [productName, setProductName] = useState("");
+  const [productQuantity, setProductQuantity] = useState("");
+  const [productPrice, setProductPrice] = useState("");
+  const [productDescription, setProductDescription] = useState("");
+  const [products, setProducts] = useState([]);
+  const [searchTerm, setSearchTerm] = useState("");
 
-  // Recupera os produtos do sessionStorage quando o componente é carregado
   useEffect(() => {
-    const storedProducts = sessionStorage.getItem("products");
-    if (storedProducts) {
-      setProducts(JSON.parse(storedProducts)); // Converte para array novamente
-    }
-  }, []);
+    fetchProducts();
+  }, [searchTerm]);
 
-  // Função para adicionar o produto
-  const addProduct = (e) => {
+  
+
+  const fetchProducts = async () => {
+    try {
+      const response = await axios.get(API_URL, {
+        params: { nome: searchTerm },
+      });
+      setProducts(response.data);
+    } catch (error) {
+      console.error("Erro ao buscar produtos:", error);
+    }
+  };
+
+  const addOrUpdateProduct = async (e) => {
     e.preventDefault();
-    if (!productName || !productQuantity || !productImage) {
+    if (!productName || !productQuantity || !productPrice || !productDescription) {
       alert("Por favor, preencha todos os campos!");
       return;
     }
-    const newProduct = { name: productName, quantity: productQuantity, image: productImage };
-    const updatedProducts = [...products, newProduct];
-    setProducts(updatedProducts);
-    sessionStorage.setItem("products", JSON.stringify(updatedProducts)); // Armazena os produtos no sessionStorage
-    closeModal(); // Fecha o modal após adicionar
+
+    try {
+      const productData = {
+        nome: productName,
+        quantidade: Number(productQuantity),
+        preco: Number(productPrice),
+        descricao: productDescription,
+      };
+
+      if (modalType === "edit" && editingProductId) {
+        await axios.put(`${API_URL}/${editingProductId}`, productData);
+      } else {
+        await axios.post(API_URL, productData);
+      }
+
+      fetchProducts();
+      closeModal();
+    } catch (error) {
+      console.error("Erro ao salvar produto:", error);
+    }
   };
 
-  const openModal = (type) => {
+  const deleteProduct = async (id) => {
+    try {
+      await axios.delete(`${API_URL}/${id}`);
+      alert("Produto excluído com sucesso!");
+      setProducts(products.filter((product) => product._id !== id));
+    } catch (error) {
+      console.error("Erro ao excluir produto:", error);
+    }
+  };
+
+  const openModal = (type, product = null) => {
     setModalType(type);
     setIsModalOpen(true);
+
+    if (type === "edit" && product) {
+      setEditingProductId(product._id);
+      setProductName(product.nome);
+      setProductQuantity(product.quantidade);
+      setProductPrice(product.preco);
+      setProductDescription(product.descricao);
+    } else {
+      resetForm();
+    }
   };
 
   const closeModal = () => {
     setIsModalOpen(false);
-    setModalType("");
-    setProductImage(null); // Limpa a imagem
-    setProductName(""); // Limpa o nome
-    setProductQuantity(""); // Limpa a quantidade
+    setEditingProductId(null);
+    resetForm();
   };
 
-  // Função para lidar com o upload da imagem
-  const handleImageChange = (e) => {
-    const file = e.target.files[0];
-    if (file) {
-      const reader = new FileReader();
-      reader.onloadend = () => {
-        setProductImage(reader.result); // Armazena a URL da imagem
-      };
-      reader.readAsDataURL(file); // Lê o arquivo como uma URL base64
-    }
+  const resetForm = () => {
+    setProductName("");
+    setProductQuantity("");
+    setProductPrice("");
+    setProductDescription("");
   };
 
   return (
     <div className="estoque-layout">
-      {/* Header */}
       <Header />
 
-      {/* Main Layout */}
       <div className="estoque-container">
-        {/* Sidebar */}
         <aside className="sidebar">
-          <h2>PRODUTOS</h2>
+          <h2 className="titulo_search">PRODUTOS</h2>
           <div className="search-container">
-            <input type="text" placeholder="Pesquisar..." />
-            <button>🔍</button>
+            <input
+              type="text"
+              value={searchTerm}
+              onChange={(e) => setSearchTerm(e.target.value)}
+              placeholder="Pesquisar por nome..."
+            />
           </div>
         </aside>
 
-        {/* Main Content */}
         <main className="main-content">
           <div className="button-container">
             <button className="action-button" onClick={() => openModal("add")}>
               Adicionar produtos ao estoque
             </button>
-            <button className="action-button" onClick={() => openModal("remove")}>
-              Remover produtos do estoque
-            </button>
           </div>
 
-          {/* Exibição dos Produtos */}
           <div className="product-cards">
             {products.length > 0 ? (
-              products.map((product, index) => (
-                <div key={index} className="product-card">
-                  {product.image && <img src={product.image} alt={product.name} />}
+              products.map((product) => (
+                <div key={product._id} className="product-card">
                   <div className="product-info">
-                    <h3>{product.name}</h3>
-                    <p>Quantidade: {product.quantity}</p>
+                    <h3>{product.nome}</h3>
+                    <p>Quantidade: {product.quantidade}</p>
+                    <p>Preço Unitário: R$ {product.preco.toFixed(2)}</p>
+                    <p>Valor Total: R$ {(product.preco * product.quantidade).toFixed(2)}</p>
+                    <p>{product.descricao}</p>
+                    <button className="edit-button" onClick={() => openModal("edit", product)}>
+                      Editar
+                    </button>
+                    <button className="delete-button" onClick={() => deleteProduct(product._id)}>
+                      Excluir
+                    </button>
                   </div>
                 </div>
               ))
@@ -104,33 +151,26 @@ const Estoque = () => {
         </main>
       </div>
 
-      {/* Modal */}
-      {isModalOpen && modalType === "add" && (
+      {isModalOpen && (
         <div className="modal-overlay">
           <div className="modal">
-            <h2>Adicionar Produto</h2>
-            <form onSubmit={addProduct}>
+            <h2>{modalType === "edit" ? "Editar Produto" : "Adicionar Produto"}</h2>
+            <form onSubmit={addOrUpdateProduct}>
               <label>
                 Nome do Produto:
-                <input
-                  type="text"
-                  value={productName}
-                  onChange={(e) => setProductName(e.target.value)}
-                  placeholder="Ex: Coca-cola lata 300ml"
-                />
+                <input type="text" value={productName} onChange={(e) => setProductName(e.target.value)} />
               </label>
               <label>
                 Quantidade:
-                <input
-                  type="number"
-                  value={productQuantity}
-                  onChange={(e) => setProductQuantity(e.target.value)}
-                  placeholder="Ex: 10"
-                />
+                <input type="number" value={productQuantity} onChange={(e) => setProductQuantity(e.target.value)} />
               </label>
               <label>
-                Imagem do Produto:
-                <input type="file" accept="image/*" onChange={handleImageChange} />
+                Preço:
+                <input type="number" step="0.01" value={productPrice} onChange={(e) => setProductPrice(e.target.value)} />
+              </label>
+              <label>
+                Descrição:
+                <textarea value={productDescription} onChange={(e) => setProductDescription(e.target.value)} />
               </label>
               <div className="modal-buttons">
                 <button type="submit">Confirmar</button>
@@ -143,22 +183,6 @@ const Estoque = () => {
         </div>
       )}
 
-      {/* Modal para Remover Produto - ainda sem funcionalidade */}
-      {isModalOpen && modalType === "remove" && (
-        <div className="modal-overlay">
-          <div className="modal">
-            <h2>Remover Produto</h2>
-            <p>Funcionalidade em desenvolvimento.</p>
-            <div className="modal-buttons">
-              <button type="button" onClick={closeModal}>
-                Fechar
-              </button>
-            </div>
-          </div>
-        </div>
-      )}
-
-      {/* Footer */}
       <Footer />
     </div>
   );
