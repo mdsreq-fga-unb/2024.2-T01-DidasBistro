@@ -28,7 +28,7 @@ const Eventos = () => {
     get_eventos();
   }, []);
 
-  // Filtragem de eventos baseada no termo de pesquisa
+
   const filteredEventos = eventos.filter((evento) =>
     [
       evento.nome,
@@ -42,13 +42,13 @@ const Eventos = () => {
       .some((field) => field.toLowerCase().includes(searchTerm.toLowerCase()))
   );
 
-  // Função para iniciar a transição e definir o destino da navegação
+  
   const handleNavigateWithTransition = (path) => {
     setTargetPath(path);
     setIsTransitioning(true);
   };
 
-  // Quando a animação terminar, navega para o destino definido
+
   const handleAnimationComplete = () => {
     if (isTransitioning && targetPath) {
       navigate(targetPath);
@@ -66,7 +66,7 @@ const Eventos = () => {
         onAnimationComplete={handleAnimationComplete}
       >
         <div className="button-search-container">
-          {/* Barra de pesquisa */}
+          
           <input
             type="text"
             placeholder="Pesquisar evento..."
@@ -75,7 +75,7 @@ const Eventos = () => {
             className="search-input"
           />
 
-          {/* Botão de cadastro */}
+         
           <button
             onClick={() => handleNavigateWithTransition("/evento/criar")}
             className="btn"

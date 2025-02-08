@@ -22,10 +22,7 @@ const Header = () => {
         </a>
         <Link to={"/evento"} className="nav-link" >
           Eventos
-       </Link>
-        <a className="nav-link" href="/funcionarios">
-          Funcionarios
-        </a>
+       </Link> 
       </nav>
     </header>
   );

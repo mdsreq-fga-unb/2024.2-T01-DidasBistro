@@ -10,7 +10,6 @@ const Footer = () => {
       <nav className="footer-nav">
         <Link to="/">Estoque</Link>
         <Link to="/evento">Eventos</Link>
-        <a href="#funcionarios">Funcionários</a>
       </nav>
     </footer>
   );

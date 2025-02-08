@@ -22,14 +22,6 @@ const CardsSection = () => {
         <h2 className="card-title">Eventos</h2>
         <div className="card-icon">📅</div>
       </div>
-
-      <div 
-        role="button" 
-        onClick={() => navigate("/funcionarios")} 
-        className="card">
-        <h2 className="card-title">Funcionários</h2>
-        <div className="card-icon">👤</div>
-      </div>
     </section>
   );
 };

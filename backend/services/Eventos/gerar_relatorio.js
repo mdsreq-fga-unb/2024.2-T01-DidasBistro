@@ -44,7 +44,7 @@ const gerar_relatorio = async (req, res) => {
       doc.fontSize(12).text(`#${index + 1} - ${acao.tipo.toUpperCase()}`);
       doc.text(`Descrição: ${acao.descricao}`);
       doc.text(`Valor: R$ ${acao.valor.toFixed(2)}`);
-      doc.text(`Data: ${acao.data.toLocaleDateString()}`);
+      doc.text(`Data: ${acao.data.toLocaleDateString("pt-br")}`);
     });
 
     // saldo atual

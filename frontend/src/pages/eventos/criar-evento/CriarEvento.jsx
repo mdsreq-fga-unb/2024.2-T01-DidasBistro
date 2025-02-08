@@ -1,9 +1,9 @@
-import React, { useState } from 'react'
-import './CriarEvento.css'
-import Header from '../../../components/header/Header'
-import Footer from '../../../components/footer/Footer'
+import React, { useState } from 'react';
+import './CriarEvento.css';
+import Header from '../../../components/header/Header';
+import Footer from '../../../components/footer/Footer';
 import axios from 'axios';
-import { useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom';
 
 const CriarEvento = () => {
   const API_URL = import.meta.env.VITE_API_URL;
@@ -25,18 +25,16 @@ const CriarEvento = () => {
       data: data,
       hora: hora
     }).then(() => {
-      alert("Evento Cadastrado com Sucesso!")
-      navigate('/evento')
+      alert("Evento Cadastrado com Sucesso!");
+      navigate('/evento');
     }).catch((error) => {
-      console.log(error)
-      alert("Erro ao cadastrar evento, tente novamente.")
-    })
-  }
+      console.log(error);
+      alert("Erro ao cadastrar evento, tente novamente.");
+    });
+  };
 
   return (
-    <div className="container" style={{
-      color: 'black'
-    }}>
+    <div className="container" style={{ color: 'black' }}>
       <Header />
       <div className="form-container">
         <form onSubmit={criar_evento} className="form-container">
@@ -97,12 +95,21 @@ const CriarEvento = () => {
             </div>
 
             <button type="submit" className="btn">Cadastrar Evento</button>
+
+            {/* Botão de Voltar */}
+            <button
+              onClick={() => navigate('/evento')}
+              className="btn voltar-btn"
+              type="button"
+            >
+              Voltar
+            </button>
           </div>
         </form>
       </div>
       <Footer />
     </div>
-  )
-}
+  );
+};
 
 export default CriarEvento;
