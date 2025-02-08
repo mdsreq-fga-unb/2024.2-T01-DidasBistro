@@ -7,15 +7,15 @@ A formula final foi B-A, sendo B o valor de negócio e A a dificuldade técnica,
 Aqui estão as personas indentificadas no estudo de caso
 
 
-![profcoord](../imagens/professorcoordenador.png)
+![profcoord](../imagens/usm1.png)
 
-![prof](../imagens/professor.png)
+![prof](../imagens/usm2.png)
 
-![aluno](../imagens/aluno.png)
+![aluno](../imagens/usm3.png)
 
-![resp](../imagens/responsavel.png)
+![resp](../imagens/usm4.png)
 
-![coord](../imagens/coordenador.png)
+![coord](../imagens/usm5.png)
 
 Para visualizar o quadro inteiro no miro [clique aqui](https://miro.com/welcomeonboard/OUtnT1RaV1VIdlAxeGVCeDJnMDhYYy91VUpBYTJDM296dXdJOFRCMVlnNHppSHVQWWFEYXhpTGZrUERnZE1saGJWalFkMGhRNllSV011THhERWNPWktqb2tpajh6N2dUaTNLY1ltU29jK1p5bzZBU29XVWJLdnFaZlQ2QUJnaHIhZQ==?share_link_id=460950000281)
 

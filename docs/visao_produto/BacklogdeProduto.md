@@ -114,6 +114,7 @@ Com base na priorização feita e visando entregar maior valor para o cliente no
 | **US018**          | Registrar Pagamento de Funcionário                            |
 | **US019**          | Pesquisar Funcionário                              |
 
+Houve mudanças no MVP entre as versões 2.0 e 3.0 devido à saída de integrantes do projeto. Para manter o valor do projeto para a cliente, foram retiradas apenas as histórias relacionadas à gestão de funcionários.
 
 
 **Histórico de Revisão**
