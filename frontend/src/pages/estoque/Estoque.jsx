@@ -5,7 +5,7 @@ import Footer from "../../components/footer/Footer";
 import "./Estoque.css";
 
 
-const API_URL = "http://localhost:3000/api/produtos";
+const API_URL = import.meta.env.VITE_API_URL + "/produtos";
 
 const Estoque = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
