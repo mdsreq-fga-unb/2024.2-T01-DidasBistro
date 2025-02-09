@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const mongourl = `mongodb://root:admin123@DidasBistro-db:27017/`
+const mongourl = process.env.DB_URL;
 
 const connectDB = async () => {
   try {
