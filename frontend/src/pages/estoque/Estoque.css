@@ -1,14 +1,4 @@
-/* Geral */
-body,
-html {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-  height: 100%;
-  box-sizing: border-box;
-}
 
-/* Layout Principal */
 .estoque-layout {
   display: flex;
   flex-direction: column;
@@ -45,23 +35,23 @@ footer {
 /* Conteúdo da Página */
 .estoque-container {
   display: flex;
-  flex: 1;
+  flex-direction: row; /* Mantém os elementos em linha */
   margin-top: 60px;
-  /* Espaço para o Header */
   margin-bottom: 40px;
-  /* Espaço para o Footer */
-  overflow: auto;
 }
 
 .sidebar {
-  position: sticky; /* Mantém a posição ao rolar */
-  top: 0; /* Define o deslocamento superior */
+  position: fixed; /* Mantém fixa na lateral */
+  left: 0;
+  width: 15%; /* Largura fixa */
+  height: 100%;
   background-color: #e9c46a;
   padding: 10px;
-  height: 100vh; /* Garante que ocupe a altura da tela */
-  overflow-y: auto; /* Adiciona scroll interno caso necessário */
-  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Sombra para separação */
+  overflow-y: auto; /* Scroll interno, se necessário */
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
 }
+
+
 
 .sidebar .search-container {
   display: flex;
@@ -85,12 +75,13 @@ footer {
 .main-content {
   flex: 1;
   padding: 20px;
+  background-color: #c06727;
+  margin-left: 15%;
 }
 
 .button-container {
   display: flex;
-  flex-direction: column;
-  margin-left: 25%;
+  justify-content: center;
 }
 
 .action-button {
@@ -176,14 +167,7 @@ footer {
   padding: 10px;
   text-align: center;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.product-card img {
-  width: 100%;
-  height: 150px;
-  object-fit: cover;
-  /* Ajusta a imagem para não distorcer */
-  border-radius: 8px;
+  margin-bottom: 1%;
 }
 
 .product-info {

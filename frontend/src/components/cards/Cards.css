@@ -3,7 +3,7 @@
     justify-content: space-evenly; /* Distribui os cards uniformemente */
     align-items: center; /* Centraliza os cards verticalmente */
     gap: 2rem; /* Ajusta o espaçamento entre os cards */
-    background-color: #fbe9e7; /* Cor bege */
+    background-color: #c06727; /* Cor bege */
     height: 100vh; /* Faz a seção ocupar toda a altura da tela */
     width: 100vw; /* Garante que a seção ocupe toda a largura da tela */
     margin: 0; /* Remove qualquer margem externa */
