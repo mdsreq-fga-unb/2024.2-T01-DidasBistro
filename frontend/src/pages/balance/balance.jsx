@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import "./balance.css";
 import { useParams } from "react-router-dom";
 
+const API_URL = import.meta.env.VITE_API_URL;
+
 const Balanco = () => {
   const { id } = useParams();
   const [evento, setEvento] = useState(null);
@@ -10,14 +12,14 @@ const Balanco = () => {
   const [tipo, setTipo] = useState("entrada");
 
   useEffect(() => {
-    fetch(`http://localhost:3000/eventos/${id}`)
+    fetch(`${API_URL}/eventos/${id}`)
       .then((res) => res.json())
       .then((data) => setEvento(data))
       .catch((err) => console.error("Erro ao carregar evento", err));
   }, [id]);
 
   const handleAdicionarAcao = () => {
-    fetch(`http://localhost:3000/eventos/${id}/adicionar-acao`, {
+    fetch(`${API_URL}/eventos/${id}/adicionar-acao`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ tipo, descricao, valor: parseFloat(valor) }),
@@ -37,7 +39,7 @@ const Balanco = () => {
   const baixarRelatorio = async () => {
     try {
       const response = await fetch(
-        `http://localhost:3000/eventos/relatorio/${id}`,
+        `${API_URL}/eventos/relatorio/${id}`,
         {
           method: "GET",
           headers: {
@@ -72,7 +74,7 @@ const Balanco = () => {
   const deletar_acao = async (id_acao) => {
     try {
       const response = await fetch(
-        `http://localhost:3000/eventos/${id}/remover-acao/${id_acao}`,
+        `${API_URL}/eventos/${id}/remover-acao/${id_acao}`,
         {
           method: "DELETE",
         }
