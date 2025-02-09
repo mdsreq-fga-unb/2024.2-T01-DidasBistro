@@ -1,4 +1,3 @@
-
 .estoque-layout {
   display: flex;
   flex-direction: column;
@@ -182,7 +181,7 @@ footer {
 
 .product-info p {
   font-size: 14px;
-  color: #555;
+  color: #000;
 }
 
 /* Aumentando o tamanho dos campos do formulário */

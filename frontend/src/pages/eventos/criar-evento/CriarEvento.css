@@ -1,4 +1,4 @@
-/* Container geral */
+
 .form-container {
   display: flex;
   justify-content: center;
@@ -13,23 +13,24 @@
 
 /* Container do formulário */
 .form-content {
+  margin-top: 15%;
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 30px;
+  padding: 10px;
   width: 600px;
   max-width: 90%;
   text-align: center;
-  transform: translateY(10px);  
+  transform: translateY(10px);
   opacity: 0;
-  animation: slideUp 0.5s ease-out forwards; /
+  animation: slideUp 0.5s ease-out forwards; 
 }
 
 /* Animação de entrada suave */
 @keyframes slideUp {
   to {
-      transform: translateY(0);
-      opacity: 1;
+    transform: translateY(0);
+    opacity: 1;
   }
 }
 
@@ -37,13 +38,12 @@
 h2 {
   font-family: 'Arial', sans-serif;
   font-size: 24px;
-  margin-bottom: 20px;
   transition: color 0.3s ease;  
 }
 
 /* Campos do formulário */
 .form-field {
-  margin-bottom: 20px;
+  margin-bottom: -1%;
   text-align: left;
   transition: all 0.3s ease;  
 }
@@ -59,11 +59,11 @@ label {
 /* Campos de entrada e área de texto */
 .input-control, .text-area {
   width: 100%;
-  padding: 10px;
+  padding: 5px;
   font-size: 14px;
   border: 1px solid #ddd;
   border-radius: 4px;
-  margin-bottom: 10px;
+  margin-bottom: 1%;
   transition: border 0.3s ease, box-shadow 0.3s ease; 
 }
 
@@ -88,8 +88,8 @@ label {
   cursor: pointer;
   font-size: 16px;
   transition: transform 0.3s ease, background-color 0.3s ease;  
+  margin-bottom: 5%;
 }
-
 
 .btn:hover {
   transform: scale(1.05);  
@@ -108,7 +108,6 @@ label {
   transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
-
 .voltar-btn:hover {
   transform: scale(1.05);
   background-color: #e65c00;
@@ -118,5 +117,3 @@ label {
   margin-left: 8px;
 }
 
-
-  

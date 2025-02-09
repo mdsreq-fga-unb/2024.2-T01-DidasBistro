@@ -34,7 +34,7 @@ const CriarEvento = () => {
   };
 
   return (
-    <div className="container" style={{ color: 'black' }}>
+    <div className="container">
       <Header />
       <div className="form-container">
         <form onSubmit={criar_evento} className="form-container">
