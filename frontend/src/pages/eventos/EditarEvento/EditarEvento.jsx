@@ -5,7 +5,9 @@ import { useParams } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 import './EditarEvento.css';
 
+
 const EditarEvento = () => {
+    const API_URL = import.meta.env.VITE_API_URL;
     const [nome, setNome] = useState("");
     const [descricao, setDescricao] = useState("");
     const [local, setLocal] = useState("");
@@ -16,7 +18,7 @@ const EditarEvento = () => {
     const navigate = useNavigate();
 
     useEffect(() => {
-        fetch(`http://localhost:3000/eventos/${id}`)
+        fetch(`${API_URL}/eventos/${id}`)
             .then((res) => res.json())
             .then((data) => {
                 setNome(data.nome);
@@ -31,7 +33,7 @@ const EditarEvento = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        fetch(`http://localhost:3000/eventos/${id}`, {
+        fetch(`${API_URL}/eventos/${id}`, {
             method: "PUT",
             headers: {
                 "Content-Type": "application/json",
@@ -55,7 +57,7 @@ const EditarEvento = () => {
     };
 
     const handleDelete = () => {
-        fetch(`http://localhost:3000/eventos/${id}`, {
+        fetch(`${API_URL}/eventos/${id}`, {
             method: "DELETE",
         })
             .then((res) => res.json())
