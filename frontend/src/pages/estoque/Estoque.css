@@ -217,3 +217,7 @@ footer {
   resize: none; /* Para manter o tamanho fixo */
   height: 100px; /* Ajuste a altura conforme necessário */
 }
+
+.edit-button {
+  margin-right: 10%;
+}

@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className="footer">
       <p className="footer-title">Dida's Bistro</p>
       <nav className="footer-nav">
-        <Link to="/">Estoque</Link>
+        <Link to="/Estoque">Estoque</Link>
         <Link to="/evento">Eventos</Link>
       </nav>
     </footer>
