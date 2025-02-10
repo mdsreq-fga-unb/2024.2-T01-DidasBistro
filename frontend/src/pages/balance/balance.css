@@ -2,9 +2,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Garante que ocupe toda a altura da tela */
+  height: 100vh;
   margin: 0;
-  background-color: #c06727; /* Opcional: cor de fundo para melhor visualização */
+  background-color: #c06727;
 }
 
 .balanco-container {
@@ -13,7 +13,9 @@ body {
   background-color: #f9f9f9;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
 }
+
 .botaoDelete {
   background-color: grey;
 }
@@ -47,6 +49,13 @@ body {
 
 .saldo-negativo {
   color: #d9534f;
+}
+
+/* NOVA CLASSE PARA PERMITIR SCROLL */
+.acoes-container {
+  max-height: 300px;
+  overflow-y: auto;
+  margin-bottom: 15px;
 }
 
 .acoes-lista {
@@ -101,4 +110,32 @@ body {
 
 .form-acao button:hover {
   background-color: #0056b3;
+}
+
+/* BOTÃO DE VOLTAR */
+.voltar {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.acoes-lista {
+  max-height: 150px; /* Define um limite para exibir no máximo três itens */
+  overflow-y: auto; /* Permite rolagem quando há mais de três itens */
+}
+
+/* Ajuste para tornar a seta de voltar visível */
+.botao-voltar {
+  position: absolute;
+  top: 90px;
+  font-size: 24px;
+  color: white;
+  background-color: gray; /* Cor mais escura para visibilidade */
+  cursor: pointer;
+}
+
+.botao-voltar:hover {
+  color: #007bff; /* Azul para destacar ao passar o mouse */
 }
