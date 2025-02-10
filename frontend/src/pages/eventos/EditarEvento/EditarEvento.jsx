@@ -143,7 +143,8 @@ const EditarEvento = () => {
                         <div className="botao-container">
                             <button type="submit" className="evento-btn editar">Editar Evento</button>
                             <button type="button" onClick={handleDelete} className="evento-btn remover">Remover Evento</button>
-                            <button type="button" onClick={handleBack} className="evento-btn voltar">Voltar</button>
+                            <button type="button" onClick={handleBack} className="evento-btn voltar-editar">Voltar</button>
+
                         </div>
                     </div>
                 </form>

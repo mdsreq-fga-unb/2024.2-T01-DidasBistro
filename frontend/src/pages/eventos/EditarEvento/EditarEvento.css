@@ -11,56 +11,44 @@ h2{
   }
   
   /* Estilos gerais para os botões */
-  .evento-btn {
-    background-color: #f57c00;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 10px;
-    color: white;
-    font-weight: bold;
-    cursor: pointer;
-    transition: transform 0.3s, background-color 0.3s;
-    font-size: 1rem;
-    width: 200px;
-    height: 50px;
-    text-align: center; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .evento-btn:hover {
-    background-color: #000000;
-    transform: scale(1.05);
-  }
-  
-  /* Ajustando os botões de Remover e Voltar para terem o mesmo tamanho */
-  .evento-btn.remover,
-  .evento-btn.voltar {
-    width: 200px; 
-  }
-  
-  .evento-btn.remover {
-    background-color: #d9534f;
-  }
-  
-  .evento-btn.remover:hover {
-    background-color: #000000;
-    transform: scale(1.05);
-  }
-  
-  .evento-btn.voltar {
-    background-color: #f57c00;
-  }
-  
-  .evento-btn.voltar:hover {
-    background-color: #000000;
-    transform: scale(1.05);
-  }
-  
-  
-  .evento-btn.remover + .evento-btn.voltar {
-    margin-left: 8px; /
-  }
-  
+.evento-btn {
+  background-color: #f57c00;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.3s, background-color 0.3s;
+  font-size: 1rem;
+  width: 200px;
+  height: 50px;
+  text-align: center; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.evento-btn:hover {
+  background-color: #000000;
+  transform: scale(1.05);
+}
+
+/* Estilos específicos para cada botão */
+.evento-btn.remover {
+  background-color: #d9534f;
+}
+
+.evento-btn.remover:hover {
+  background-color: #000000;
+}
+
+.evento-btn.voltar-editar { 
+  background-color: #f57c00;
+}
+
+.evento-btn.voltar-editar:hover {
+  background-color: #000000;
+}
+
   
