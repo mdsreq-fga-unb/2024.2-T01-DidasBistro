@@ -6,15 +6,15 @@
 
 
 ## Refugiado
-![Refugiado](/imagens/Captura de tela de 2025-02-10 18-18-22.png)
+![Refugiado](../imagens/Captura de tela de 2025-02-10 18-18-22.png)
 
 ## Agências Humanitárias
-![AgênciasHumanitaria](/imagens/Captura de tela de 2025-02-10 18-28-03.png)
+![AgênciasHumanitaria](../imagens/Captura de tela de 2025-02-10 18-28-03.png)
 
 ## Empregador
-![Empregador](/imagens/Captura de tela de 2025-02-10 18-28-17.png)
+![Empregador](../imagens/Captura de tela de 2025-02-10 18-28-17.png)
 
 ## Administrador
-![Administrador](/imagens/Captura de tela de 2025-02-10 18-28-25.png)
+![Administrador](../imagens/Captura de tela de 2025-02-10 18-28-25.png)
 
 
