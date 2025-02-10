@@ -54,8 +54,11 @@ nav:
   - Reuniões:
       - Reuniões Iniciais: reunioes/fase_inicial/fase_inicial.md
   - Estudos de caso:
-      -USM: Estudos_de_caso/USM.md
-      -PBB: Estudos_de_caso/PBB.md
+      - USM: Estudos_de_caso/USM.md
+      - PBB: Estudos_de_caso/PBB.md
+  - Casos de uso:
+      - Diagrama: Caso_de_uso/Diagrama.md
+      - Gerenciar Perfil: Caso_de_uso/Gerenciar_perfil.md
 
 
 # site_name: 2024.2-T01-DidasBistro
