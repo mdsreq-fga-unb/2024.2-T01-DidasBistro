@@ -59,6 +59,7 @@ nav:
   - Casos de uso:
       - Diagrama: Caso_de_uso/Diagrama.md
       - Gerenciar Perfil: Caso_de_uso/Gerenciar_perfil.md
+      - Solicitar Serviço de educação: Caso_de_uso/Solicitar_servico.md
 
 
 # site_name: 2024.2-T01-DidasBistro
