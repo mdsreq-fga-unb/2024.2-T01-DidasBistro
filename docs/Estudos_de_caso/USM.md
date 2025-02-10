@@ -1,6 +1,6 @@
 # **User Story Map**
 
-Nessa sessão iremos apresentar o User SStory Map feito a partir do estudo de caso feito em sala, os critérios para a priorização foram definidos a partir do valor de negócio (importância da funcionalidade) e dificuldade técnica.
+Nessa sessão iremos apresentar o User Story Map feito a partir do estudo de caso feito em sala, os critérios para a priorização foram definidos a partir do valor de negócio (importância da funcionalidade) e dificuldade técnica.
 
 A formula final foi B-A, sendo B o valor de negócio e A a dificuldade técnica, os dois valores variam de 1 a 5.
 

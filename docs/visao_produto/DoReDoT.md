@@ -4,13 +4,13 @@ Escolhemos os critérios de Definition of Ready (DoR) para garantir que o fluxo 
 
 Nossas definições são:
 
-1-O requisito cabe em uma sprint?
+1 - O requisito cabe em uma sprint?
 
-2-O requisito está representado por uma história de usuário?
+2 - O requisito está representado por uma história de usuário?
 
-3-Os critérios de aceitação estão definidos (para ser possível um feedback)?
+3 - Os critérios de aceitação estão definidos (para ser possível um feedback)?
 
-4-A prototipação está pronta para o desenvolvimento. 
+4 - A prototipação está pronta para o desenvolvimento. 
 
 
 ### 8.2 **Definition of Done (DoD)**
@@ -19,13 +19,13 @@ Escolhemos os critérios de Definition of Done (DoD) para assegurar que as entre
 
 Nossas definições são:
 
-1-Foram usadas boas práticas no código,sendo elas legibilidade e padronização de acordo com a linguagem escolhida, e modularidade para facilitar os testes e a programação em pares.
+1 - Foram usadas boas práticas no código,sendo elas legibilidade e padronização de acordo com a linguagem escolhida, e modularidade para facilitar os testes e a programação em pares.
 
-2-Contempla os critérios de aceitação das histórias de usuário.
+2 - Contempla os critérios de aceitação das histórias de usuário.
 
-3-Gera um incremento no produto
+3 - Gera um incremento no produto
 
-4-Se foi devidamente testada, com teste unitário e teste de integração.
+4 - Se foi devidamente testada, com teste unitário e teste de integração.
 
 *Histórico de Revisão**
 
