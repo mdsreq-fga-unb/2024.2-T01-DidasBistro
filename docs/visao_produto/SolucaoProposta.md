@@ -80,11 +80,7 @@ integrando HTML, CSS e JavaScript.
 - **Node.JS**: Ambiente de execução para JavaScript no lado do servidor, utilizado
 no desenvolvimento de back-end.
 
-- **Python**: Linguagem de alto nível usada no desenvolvimento de back-end,
-automação e ciência de dados.
-
-- **Flask (Python)**: Microframework leve para o desenvolvimento de APIs e
-aplicações web.
+- **Express.js**: Express.js é um framework minimalista para Node.js que facilita a criação de APIs e aplicações web, oferecendo roteamento, middleware e integração simplificada com bancos de dados.
 
 **Banco de Dados**:
 

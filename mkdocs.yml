@@ -51,6 +51,7 @@ nav:
       - Unidade 1: Apresentações/Unidade1/unidade1.md
       - Unidade 2: Apresentações/Unidade1/unidade2.md
       - Unidade 3: Apresentações/Unidade1/unidade3.md
+      - Unidade 4: Apresentações/Unidade1/unidade4.md
   - Reuniões:
       - Reuniões Iniciais: reunioes/fase_inicial/fase_inicial.md
   - Estudos de caso:
@@ -58,8 +59,9 @@ nav:
       - PBB: Estudos_de_caso/PBB.md
   - Casos de uso:
       - Diagrama: Caso_de_uso/Diagrama.md
-      - Gerenciar Perfil: Caso_de_uso/Gerenciar_perfil.md
       - Solicitar Serviço de educação: Caso_de_uso/Solicitar_servico.md
+      - Gerenciamento de Candidatos: Caso_de_uso/Gerenciamento_de_candidatos.md
+      - Gerenciar Perfil: Caso_de_uso/Gerenciar_perfil.md
 
 
 # site_name: 2024.2-T01-DidasBistro
