@@ -25,6 +25,9 @@ Além disso, essa experiência nos proporcionou uma reflexão importante sobre a
 
 Apesar das adversidades, conseguimos manter o projeto em andamento, e a superação desses desafios foi um aprendizado significativo para todos nós. No entanto, ainda reconhecemos que há áreas a serem aprimoradas, como a adaptação a mudanças repentinas e o fortalecimento da coesão do grupo em situações inesperadas.
 
+### 10.4 **Unidade 4**
+
+Apesar dos desafios, conseguimos finalizar o projeto e entregar o MVP dentro do prazo. A reta final exigiu foco, colaboração e ajustes rápidos para garantir que todas as funcionalidades essenciais estivessem implementadas. Aprendemos a lidar melhor com prazos apertados, testar e validar o produto de forma eficiente e tomar decisões assertivas sob pressão. Mesmo com dificuldades, mantivemos a organização e a comunicação, garantindo que o projeto fosse concluído com sucesso.
 
 
 
