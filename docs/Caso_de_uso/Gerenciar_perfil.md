@@ -38,7 +38,7 @@ Este caso de uso descreve o processo no qual um usuário, um refugiado palestino
 
 ## 3. Fluxos Alternativos
 
-### 3.1 [FA01] Editar Perfil
+### 3.1 FA01 Editar Perfil
 1. No passo **2.1.2**, o refugiado acessa a opção para **Editar Perfil**.  
 2. O sistema solicita que o refugiado faça login usando suas credenciais.  
 3. O refugiado preenche com suas credenciais.  
@@ -51,7 +51,7 @@ Este caso de uso descreve o processo no qual um usuário, um refugiado palestino
 10. O sistema exibe uma mensagem de **"Atualizações salvas"**.  
 11. O caso de uso é encerrado.  
 
-### 3.2 [FA02] Excluir Conta
+### 3.2 FA02 Excluir Conta
 1. No passo **2.1.2**, o refugiado acessa a opção para **Excluir Perfil**.  
 2. O sistema solicita que o refugiado faça login usando suas credenciais.  
 3. O refugiado preenche com suas credenciais.  
@@ -68,18 +68,18 @@ Este caso de uso descreve o processo no qual um usuário, um refugiado palestino
 
 ## 4. Fluxos de Exceção
 
-### 4.1 [FE01] Campos de Criação de Conta Incompletos
+### 4.1 FE01 Campos de Criação de Conta Incompletos
 - No passo **2.1.5**, o usuário clica em **"Criar Conta"** sem preencher todos os campos obrigatórios.  
 - O sistema apresenta a mensagem:  
   > **"Os campos 'Nomes dos campos' são necessários para criação de conta."**  
 - O sistema retorna ao passo **2.1.4**.  
 
-### 4.2 [FE02] Validação de Informações  
+### 4.2 FE02 Validação de Informações  
 - Nos passos **3.1.4** e **3.2.4**, se o sistema identificar credenciais inválidas, ele apresenta a mensagem:  
-  > **"O 'Nomes do dado' é inválido."**  
+  > **"O 'Nomes dos dados' é inválido."**  
 - O sistema retorna ao passo **3.1.3** ou **3.2.3**.  
 
-### 4.3 [FE03] Mensagem de Confirmação Cancelada  
+### 4.3 FE03 Mensagem de Confirmação Cancelada  
 - Nos passos **3.1.9** e **3.2.6**, caso o refugiado não confirme a ação, o sistema apresenta a mensagem:  
   > **"Ação não finalizada."**  
 - O sistema retorna ao passo **3.1.3** ou **3.2.3**.  
@@ -89,7 +89,7 @@ Este caso de uso descreve o processo no qual um usuário, um refugiado palestino
 ## 5. Pré-Condições
 
 ### 5.1 Localização  
-- Para informar as necessidades específicas, é necessário que o **GPS do dispositivo esteja ativado** e disponível para uso na plataforma.  
+- Para informar as necessidades específicas, é necessário que o **GPS do dispositivo esteja ativado** e disponível para uso na plataforma para informar a localização atual e as necessidades específicas no passo 2.1.4.  
 
 ### 5.2 Conexão com a Internet  
 - Para criar, editar ou excluir uma conta, é necessário estar conectado à **Internet**.  
