@@ -55,6 +55,7 @@ nav:
       - Solicitar Serviço de educação: Caso_de_uso/Solicitar_servico.md
       - Gerenciamento de Candidatos: Caso_de_uso/Gerenciamento_de_candidatos.md
       - Gerenciar Perfil: Caso_de_uso/Gerenciar_perfil.md
+      - Participar de serviço comunitário: Caso_de_uso/Servico_comunitario.md
   - Reuniões:
       - Reuniões Iniciais: reunioes/fase_inicial/fase_inicial.md
   - Apresentações:
