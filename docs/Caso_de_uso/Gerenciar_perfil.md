@@ -96,7 +96,11 @@ Este caso de uso descreve o processo no qual um usuário, um refugiado palestino
 
 ---
 
-## 6. Pós-Condições  
+## 6. Pré-Condições
+
+---
+
+## 7. Pós-Condições  
 - Após a criação do perfil, o refugiado pode acessar os serviços da plataforma.  
 - Após a edição do perfil, as novas informações ficam disponíveis imediatamente.  
 - Após a exclusão do perfil, o usuário perde acesso à conta e serviços da plataforma.  
